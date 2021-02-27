@@ -1,6 +1,3 @@
-function Gui()
-
--- Blox Fruits, Dawid Hub
 
 if game.PlaceId == 2753915549 then
 do
@@ -4243,7 +4240,7 @@ Save()
 end)
 FruitFarmer:Line("If it Should Hop when it finds a Fruit")
 
-FruitFarmer:Slider("Wait Between ServerHop",0, 150, 35, function(Value)
+FruitFarmer:Slider("Wait Between ServerHop",false,0, 150, 35, function(Value)
 Settings.WaitTime = Value
 print(Settings.WaitTime)
 Save()
@@ -4588,6 +4585,4 @@ end)
 
 end
 
-end
-pcall ( Gui )
 
