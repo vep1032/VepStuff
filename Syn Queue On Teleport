@@ -11,7 +11,7 @@ end
 
 local FluxLib = loadstring(game:HttpGet("https://pastebin.com/raw/8Eyg2N2M"))()
 
-local win = FluxLib:Window("BloxFruits", "Straw Hub", Color3.fromRGB(30,144,255), Enum.KeyCode.B) -- Color of Ui
+local win = FluxLib:Window("BloxFruits", "Straw Hub On Top", Color3.fromRGB(30,144,255), Enum.KeyCode.B) -- Color of Ui
 
 local FruitFarmer = win:Tab("Fruit Farmer", "http://www.roblox.com/asset/?id=6023426915") --http://www.roblox.com/asset/?id=6022668888
 
