@@ -1,0 +1,404 @@
+print("Loading")
+getgenv().text = "Buy Straw Hub here: "https://discord.gg/tB3v9P4rhe"
+
+do
+    local ui = game:GetService("CoreGui"):FindFirstChild("FluxLib")
+    if ui then
+        ui:Destroy()
+    end
+end
+
+
+local FluxLib = loadstring(game:HttpGet("https://pastebin.com/raw/8Eyg2N2M"))()
+
+local win = FluxLib:Window("BloxFruits", "Straw Hub", Color3.fromRGB(30,144,255), Enum.KeyCode.B) -- Color of Ui
+
+local FruitFarmer = win:Tab("Fruit Farmer", "http://www.roblox.com/asset/?id=6023426915") --http://www.roblox.com/asset/?id=6022668888
+
+local Name = "BFSettings.txt"
+
+
+local DefaultSettings = {
+ServerHop = true,
+UseWebHook = false,
+WaitTime = 30,
+AutoEat = false,
+Fruit = " ",
+url = " " ,
+Claimed = false
+}
+
+local Fruits = {
+"Bomb Fruit",
+"Spike Fruit",
+"Chop Fruit",
+"Spring Fruit",
+"Smoke Fruit",
+"Flame Fruit",
+"Ice Fruit",
+"Sand Fruit",
+"Dark Fruit",
+"Light Fruit",
+"Rubber Fruit",
+"Barrier Fruit",
+"Magma Fruit",
+"Quake Fruit",
+"Human: Buddha Fruit",
+"String Fruit",
+"Bird: Phoenix Fruit",
+"Rumble Fruit",
+"Paw Fruit",
+"Gravity Fruit",
+"Dought Fruit",
+"Control Fruit",
+"Dragon Fruit"
+}
+
+
+local Settings
+
+if not pcall(function() readfile(Name) end) then writefile(Name, game:service'HttpService':JSONEncode(DefaultSettings)) end
+
+Settings = game:service'HttpService':JSONDecode(readfile(Name))
+
+local function Save()
+writefile(Name,game:service'HttpService':JSONEncode(Settings))
+end
+
+FruitFarmer:Toggle("ServerHop", "ServerHop after a Choosen Time if a Fruit is found", false, function(State)
+Settings.ServerHop = State
+print(Settings.ServerHop)
+Save()
+end)
+
+FruitFarmer:Label("If it Should Hop when it finds a Fruit")
+
+FruitFarmer:Slider("Wait Between ServerHop", "Self Explaining", 0, 150, 35, function(Value)
+Settings.WaitTime = Value
+print(Settings.WaitTime)
+Save()
+end)
+FruitFarmer:Label("Time Between Hop if Fruit found")
+
+FruitFarmer:Toggle("UseWebHook", "Enable Webhook Use or Disable", false, function(State)
+Settings.UseWebHook = State
+print(Settings.UseWebHook)
+Save()
+end)
+
+FruitFarmer:Textbox("Webhook here", "Dm me asking what a webhook it is a free block/ban", true, function(Text)
+print(Text)
+Settings.url = Text
+print(Settings.url)
+Save()
+end)
+FruitFarmer:Toggle("AutoEat Fruit","", false, function(State)
+Settings.AutoEat = State
+print(Settings.AutoEat)
+Save()
+end)
+FruitFarmer:Dropdown("Fruit Name", {unpack(Fruits)}, function(Choosen)
+Settings.Fruit = Choosen
+print(Settings.Fruit)
+Save()
+end)
+
+FruitFarmer:Button("Start Fruit Farmer", "Enables the Fruit Farming", function()
+    
+syn.queue_on_teleport('loadstring(game:HttpGet("https://pastebin.com/raw/ZtUBjxfq",true))()')
+
+
+_G.ServerHop = Settings.ServerHop
+_G.UseWebHook = Settings.UseWebHook
+_G.WaitTime = Settings.WaitTime
+_G.AutoEat = Settings.AutoEat
+_G.Fruit = Settings.Fruit
+_G.url = Settings.url
+_G.Claimed = false
+
+if game then
+	if not game:IsLoaded() then
+		repeat wait()
+		    until
+	    game:IsLoaded()
+	end
+else
+	game:Shutdown()
+end
+print("5")
+wait(5)
+
+local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+   wait(1)
+   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+end)
+warn("Anti AFK enabled")
+
+
+
+wait(5)
+
+local vim = game:GetService("VirtualInputManager")
+local function click(a)
+    vim:SendMouseButtonEvent(a.AbsolutePosition.X+a.AbsoluteSize.X/2,a.AbsolutePosition.Y+50,0,true,a,1)
+    vim:SendMouseButtonEvent(a.AbsolutePosition.X+a.AbsoluteSize.X/2,a.AbsolutePosition.Y+50,0,false,a,1)
+end
+
+click(game:GetService("Players").LocalPlayer.PlayerGui.Main.ChooseTeam.Container.Pirates.Frame.ViewportFrame.TextButton)
+
+wait(4)
+
+print("UseWebHook")
+
+if _G.UseWebHook then
+for i, v in pairs(workspace:GetChildren()) do
+if v:IsA("Tool") then
+if v.Handle or v.Name == "Fruit " then
+local req = syn.request
+local hwid_headers = {'Syn-Fingerprint'} -- You will have to add more headers for different exploits
+local data = {
+    ["username"]  = "Chicken",
+    ["avatar_url"] = "https://cdn.discordapp.com/attachments/801439197344563250/804359711557812294/Download.png",
+    ["embeds"] = {
+        {
+            ["author"] = {
+                ["name"] = game.Players.LocalPlayer.Name.. " Claimed a Fruit",
+                ["url"] = "https://discord.gg/brackets",
+                ["icon_url"] = "https://web.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&Format=Png&userid="..game.Players.LocalPlayer.UserId
+            },
+            ["url"] = "https://www.roblox.com/games/"..game.PlaceId,
+            ["description"] = game:GetService('MarketplaceService'):GetProductInfo(game.PlaceId).Name,
+            ["color"] = 000000,
+            ["fields"] = {
+                {
+                    ["name"] = "Ping",
+                    ["value"] = "@everyone ",
+                },
+                {
+                    ["name"] = "Player Info:",
+                    ["value"] = "**Age: **"..game.Players.LocalPlayer.AccountAge,
+                },
+                {
+                    ["name"] = "Fruit:",
+                    ["value"] = v.Name,
+                    ["inline"] = true
+                },
+                            {
+                    ["name"] = "WaitingTimeFromNow:",
+                    ["value"] = _G.WaitTime,
+                    ["inline"] = true
+                },
+                {
+                    ["name"] = "JobId:",
+                    ["value"] = tostring("```"..game.JobId.."```"),
+                    ["inline"] = true
+                },
+            },
+            ["thumbnail"] = {
+                ["url"] = "https://web.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&Format=Png&userid="..game.Players.LocalPlayer.UserId
+            },
+            ["footer"] = {
+                ["text"] = "Found a Fruit",
+            }
+        }
+    }
+}
+local Post = req({Url = _G.url,  Method = 'POST', Headers = { ['Content-Type'] = 'application/json' }, Body = game:GetService('HttpService'):JSONEncode(data)})
+end
+end
+end
+end
+
+print("Claim")
+
+
+for i, v in pairs(workspace:GetChildren()) do
+if v:IsA("Tool") and v.EatRemote then
+if v.Handle then
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Handle.TouchInterest.Parent, 0) --0 is touch
+_G.Claimed = true
+end
+end
+end
+
+for i, v in pairs(workspace:GetChildren()) do
+if v:IsA("Model") and v.Name == "Fruit " then
+if v.Handle then
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Handle.TouchInterest.Parent, 0) --0 is touch
+_G.Claimed = true
+end
+end
+end
+
+print("Eat")
+
+wait(2)
+if _G.AutoEat then
+for _, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+   v.Parent = game.Players.LocalPlayer.Character
+end
+wait(0.2)
+for i,e in pairs(game:GetService("Players").LocalPlayer.Character:GetDescendants()) do
+if e.Name == _G.Fruit then
+game:GetService("Players").LocalPlayer.Character[_G.Fruit].EatRemote:InvokeServer()
+wait(99999999999999999999999)
+else
+_G.Claimed = false
+end
+end
+end
+
+
+print("DoneEat")
+
+if _G.Claimed then
+print("Yes")
+if _G.ServerHop then
+local PlaceID = game.PlaceId
+local AllIDs = {}
+local foundAnything = ""
+local actualHour = os.date("!*t").hour
+local Deleted = false
+local File = pcall(function()
+    AllIDs = game:GetService('HttpService'):JSONDecode(readfile("NotSameServers.json"))
+end)
+if not File then
+    table.insert(AllIDs, actualHour)
+    writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
+end
+function TPReturner()
+    local Site;
+    if foundAnything == "" then
+        Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100'))
+    else
+        Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100&cursor=' .. foundAnything))
+    end
+    local ID = ""
+    if Site.nextPageCursor and Site.nextPageCursor ~= "null" and Site.nextPageCursor ~= nil then
+        foundAnything = Site.nextPageCursor
+    end
+    local num = 0;
+    for i,v in pairs(Site.data) do
+        local Possible = true
+        ID = tostring(v.id)
+        if tonumber(v.maxPlayers) > tonumber(v.playing) then
+            for _,Existing in pairs(AllIDs) do
+                if num ~= 0 then
+                    if ID == tostring(Existing) then
+                        Possible = false
+                    end
+                else
+                    if tonumber(actualHour) ~= tonumber(Existing) then
+                        local delFile = pcall(function()
+                            delfile("NotSameServers.json")
+                            AllIDs = {}
+                            table.insert(AllIDs, actualHour)
+                        end)
+                    end
+                end
+                num = num + 1
+            end
+            if Possible == true then
+                table.insert(AllIDs, ID)
+                wait()
+                pcall(function()
+                    writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
+                    wait()
+                    game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceID, ID, game.Players.LocalPlayer)
+                end)
+                wait(4)
+            end
+        end
+    end
+end
+
+function Teleport()
+    while wait() do
+        pcall(function()
+            TPReturner()
+            if foundAnything ~= "" then
+                TPReturner()
+            end
+        end)
+    end
+end
+print("Waiting")
+wait(_G.WaitTime)
+Teleport()
+end
+elseif not _G.Claimed then
+print("No")
+local PlaceID = game.PlaceId
+local AllIDs = {}
+local foundAnything = ""
+local actualHour = os.date("!*t").hour
+local Deleted = false
+local File = pcall(function()
+    AllIDs = game:GetService('HttpService'):JSONDecode(readfile("NotSameServers.json"))
+end)
+if not File then
+    table.insert(AllIDs, actualHour)
+    writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
+end
+function TPReturner()
+    local Site;
+    if foundAnything == "" then
+        Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100'))
+    else
+        Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100&cursor=' .. foundAnything))
+    end
+    local ID = ""
+    if Site.nextPageCursor and Site.nextPageCursor ~= "null" and Site.nextPageCursor ~= nil then
+        foundAnything = Site.nextPageCursor
+    end
+    local num = 0;
+    for i,v in pairs(Site.data) do
+        local Possible = true
+        ID = tostring(v.id)
+        if tonumber(v.maxPlayers) > tonumber(v.playing) then
+            for _,Existing in pairs(AllIDs) do
+                if num ~= 0 then
+                    if ID == tostring(Existing) then
+                        Possible = false
+                    end
+                else
+                    if tonumber(actualHour) ~= tonumber(Existing) then
+                        local delFile = pcall(function()
+                            delfile("NotSameServers.json")
+                            AllIDs = {}
+                            table.insert(AllIDs, actualHour)
+                        end)
+                    end
+                end
+                num = num + 1
+            end
+            if Possible == true then
+                table.insert(AllIDs, ID)
+                wait()
+                pcall(function()
+                    writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
+                    wait()
+                    game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceID, ID, game.Players.LocalPlayer)
+                end)
+                wait(4)
+            end
+        end
+    end
+end
+
+function Teleport()
+    while wait() do
+        pcall(function()
+            TPReturner()
+            if foundAnything ~= "" then
+                TPReturner()
+            end
+        end)
+    end
+end
+
+Teleport()
+end
+end)
