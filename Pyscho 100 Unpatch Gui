@@ -156,7 +156,7 @@ function VLib:Window(textgame)
 	MainTitle.Position = UDim2.new(0.324129045, 0, 0.0512162149, 0)
 	MainTitle.Size = UDim2.new(0, 71, 0, 20)
 	MainTitle.Font = Enum.Font.Gotham
-	MainTitle.Text = "Ninja Hub"
+	MainTitle.Text = "Straw Hub"
 	MainTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 	MainTitle.TextSize = 14.000
 	MainTitle.TextXAlignment = Enum.TextXAlignment.Left
@@ -177,7 +177,7 @@ function VLib:Window(textgame)
 	CircleName.BackgroundTransparency = 1.000
 	CircleName.Size = UDim2.new(0, 38, 0, 37)
 	CircleName.Font = Enum.Font.Gotham
-	CircleName.Text = "N"
+	CircleName.Text = "p"
 	CircleName.TextColor3 = Color3.fromRGB(255, 255, 255)
 	CircleName.TextSize = 16.000
 
@@ -1424,7 +1424,7 @@ function VLib:Window(textgame)
 end
 
 if game.PlaceId == 5603739866 then 
-    local win = VLib:Window("STRAW HUB", "Psycho 100", "P")
+    local win = VLib:Window("Psycho 100", "Psycho 100", "P")
     
     local ss = win:Tab("MAIN")
     local sss = win:Tab("MISC")
