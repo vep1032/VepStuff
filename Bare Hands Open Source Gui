@@ -1,0 +1,173 @@
+local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/Rgb%20Ui"))()
+
+
+local win = VLib:Window("STRAW HUB", Color3.fromRGB(196, 40, 28))
+        
+local ss = win:Tab("MAIN")
+local sss = win:Tab("MISC")
+local sss1 =  win:Tab("TELEPORTS")
+ local tool_table = {}
+    for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v:IsA("Tool") then
+            table.insert(tool_table, v.Name)
+        end
+    end
+    SelectedWeapon = nil
+
+    ss:Dropdown(
+        "Select Tool",
+        tool_table,
+        function(SelectedOption)
+            SelectedWeapon = SelectedOption
+        end
+    )
+
+ss:Toggle(
+        "AutoEquip",
+        function(t)
+            Equip = t
+            while wait() do
+                if Equip then
+                    pcall(function()
+                    for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+                        if v.Name == SelectedWeapon then
+                            game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)
+                        end
+                    end
+                    end) 
+            end
+            end
+        end
+    )
+    
+local Food_Table = {} 
+for i,v in pairs(game:GetService("Workspace").Sellers:GetChildren()) do 
+  if v:IsA("Part") then 
+    table.insert(Food_Table,v.Name)
+  end 
+end
+
+ss:Toggle("Autofarm Durability",function(t)
+    durafarm = t 
+    while durafarm do wait(Wait_Time) 
+      pcall(function()
+       game.Players.LocalPlayer.Character["Durability Training"].DuraTrain:FireServer("TrainDura")
+       end) 
+    end 
+end) 
+
+ss:Toggle("Autofarm Pushups",function(t)
+    pushupfarm = t 
+    while pushupfarm do wait(Wait_Time)  
+      pcall(function()
+game.Players.LocalPlayer.Character["Strength Training"].Pushup:FireServer("Pushup")        end) 
+    wait(5)
+    end 
+end) 
+
+ss:Slider("Wait Time For Training",100,1,-5,function(t)
+Wait_Time =  t     
+end) 
+
+ss:Toggle("Legit Box Farm",function(t)
+legitfarm = t 
+while legitfarm do wait() 
+    pcall(function()
+
+
+if game.Players.LocalPlayer.Character.Humanoid.Health > 90 then 
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-251.173752, 3.54078007, -0.800028205)
+
+repeat 
+    wait(1)
+       game.Players.LocalPlayer.Character.Combat.Punch:FireServer("Combat")
+until game.Players.LocalPlayer.Character.Humanoid.Health < 10  or legitfarm == false    
+end 
+end) 
+end 
+end) 
+
+ss:Toggle("Op Autofarm Strength",function(t)
+strengthfarm = t 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-247.390213, 3.51877284, -5.48023033)
+while strengthfarm do wait()
+    pcall(function()
+    game.Players.LocalPlayer.Character.Combat.Punch:FireServer("Combat")
+   if game.Players.LocalPlayer.Stats.CStamina.Value < 10 then 
+       repeat 
+           wait() 
+       until game.Players.LocalPlayer.Stats.CStamina.Value >  99 or strengthfarm == false 
+         end 
+   
+    end) 
+    end 
+end) 
+
+ss:Toggle("Gang Base Farm",function(t)
+gemfarm = t
+while gemfarm do wait() 
+pcall(function()
+    if game.Players.LocalPlayer.Character:FindFirstChild("Combat") == nil then
+    game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.Combat)
+                        
+if game:GetService("Workspace").GANGSTA.Value.Value ~= 8060947 and game.Players.LocalPlayer.Character.Humanoid.Health > 98 then 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(305.906555, 44.3153992, 333.940033)
+repeat 
+    wait() 
+game.Players.LocalPlayer.Character.Combat.Punch:FireServer("M2")
+until  game:GetService("Workspace").GANGSTA.Value.Value == 8060947 or  game.Players.LocalPlayer.Character.Humanoid.Health <= 10 or farm == false 
+if game.Players.LocalPlayer.Character.Humanoid.Health <= 10 then 
+repeat 
+    wait() 
+until game.Players.LocalPlayer.Character.Humanoid.Health >= 98 
+           end 
+         end 
+      end 
+   end)  
+end
+end) 
+
+ss:Label("Gang Base Farm Only Supports")
+ss:Label("The Hidden Ninjas Gang")
+
+sss:Toggle("Punch Kill Aura",function(t)
+punch = t 
+while punch do wait() 
+    pcall(function()
+        game.Players.LocalPlayer.Character.Combat.Punch:FireServer("Combat")
+      end) 
+   end 
+end) 
+
+
+ss:Toggle("Farm Speed/Stam",function(t)
+speed = t 
+while speed do wait() 
+    pcall(function()
+
+game:GetService("ReplicatedStorage").Run:FireServer("RunOn")
+    end) 
+   end 
+end) 
+
+sss:Button("No Cooldown",function()
+ Timer =
+                    hookfunction(
+                    wait,
+                    function(time)
+                        if time then
+                            return Timer()
+                        end
+                        return Timer(time)
+                    end
+                )    
+end) 
+
+sss1:Dropdown("Teleports Foods",Food_Table,function(t)
+    foodtp = t 
+    for i,v in pairs(game:GetService("Workspace").Sellers:GetChildren()) do 
+      if v.Name == foodtp then 
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+       end 
+    end 
+end) 
