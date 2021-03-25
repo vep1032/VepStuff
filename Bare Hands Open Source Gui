@@ -7,6 +7,8 @@ VirtualUser:CaptureController()
 VirtualUser:ClickButton2(Vector2.new())
 end)
 
+game.Players.LocalPlayer.Character.Animate.sit:Destroy()
+
 local win = VLib:Window("STRAW HUB", Color3.fromRGB(196, 40, 28))
         
 local ss = win:Tab("MAIN")
