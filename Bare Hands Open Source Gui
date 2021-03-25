@@ -7,7 +7,9 @@ VirtualUser:CaptureController()
 VirtualUser:ClickButton2(Vector2.new())
 end)
 
+pcall(function()
 game.Players.LocalPlayer.Character.Animate.sit:Destroy()
+end) 
 
 local win = VLib:Window("STRAW HUB", Color3.fromRGB(196, 40, 28))
         
@@ -170,6 +172,23 @@ sss:Button("No Cooldown",function()
                         return Timer(time)
                     end
                 )    
+end) 
+
+sss:Toggle("Auto Eat Crabs",function(t)
+  autoeatcrab = t 
+  while autoeatcrab do wait() 
+      pcall(function()
+    if game.Players.LocalPlayer.Stats.Hunger.Value <= foodv then 
+         fireclickdetector(game:GetService("Workspace").Sellers.Crab.ClickDetector)   
+         wait(1)
+          game:GetService("ReplicatedStorage").Eat:FireServer("Eat","Crab")
+         end 
+      end) 
+   end 
+end) 
+
+sss:Slider("Eat Percentage",100,1,0,function(t)
+foodv = t     
 end) 
 
 sss1:Dropdown("Teleports Foods",Food_Table,function(t)
