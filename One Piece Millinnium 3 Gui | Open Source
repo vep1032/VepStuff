@@ -1,0 +1,194 @@
+local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/Rgb%20Ui"))()
+
+local win = VLib:Window("STRAW HUB", Color3.fromRGB(196, 40, 28))
+        
+local ss = win:Tab("MAIN")
+            
+local sss = win:Tab("TELEPORTS")
+
+multiply = 5 
+
+local Npc_Table = {} 
+for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do 
+    if v:IsA("Model") and not table.find(Npc_Table,v.Name) then 
+        table.insert(Npc_Table,v.Name)
+    end 
+end 
+
+local Tp_Table = {} 
+for i,v in pairs(game:GetService("Workspace").ShopNPCs:GetChildren()) do 
+    if v:IsA("Model") then 
+        table.insert(Tp_Table,v.Name)
+    end 
+end 
+
+local Quest_Table = {} 
+for i,v in pairs(game:GetService("Workspace").QuestNPCs:GetChildren()) do 
+    if v:IsA("Model") then 
+        table.insert(Quest_Table,v.Name)
+    end 
+end 
+
+ss:Dropdown("Quests", Quest_Table,function(t)
+quest = t      
+end) 
+
+ss:Toggle("Quest Start",function(t)
+qstart = t 
+while qstart do wait() 
+    pcall(function()
+
+local args = {
+    [1] = {
+        ["Type"] = "Quest",
+        ["ID"] = quest,
+        ["MinimumLevel"] = 1,
+        ["NPCName"] = "Level1Quest",
+        ["Job"] = "AcceptDialogue"
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ClientE:FireServer(unpack(args))
+        end) 
+    end 
+end) 
+
+
+ss:Dropdown("Mobs",Npc_Table,function(t)
+    mobs = t 
+end) 
+
+    ss:Toggle(
+        "Autofarm Start Mobs",
+        function(state)
+            farm = state
+            game:GetService("RunService").Heartbeat:Connect(
+                function()
+                    if farm then
+                        pcall(
+                            function()
+                                game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+                            end
+                        )
+                    end
+                end
+            )
+
+            while farm do
+                wait()
+             pcall(function()
+                for i, v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
+                    if v.Name == mobs and v:FindFirstChild("HumanoidRootPart") then
+                        repeat
+                            wait()
+                            pcall(
+                                function()
+                                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                        CFrame.new(
+                                        v.HumanoidRootPart.Position + Vector3.new(0, Distance, 0),
+                                        v.HumanoidRootPart.Position
+                                    )
+                                end
+                            )
+                            wait()
+                        until v.Humanoid.Health <= 0 or farm == false
+                    end
+                end
+            end) 
+          end
+        end
+    )
+
+    Distance = 5
+
+    ss:Slider(
+        "Distance",
+        -9,
+        10,
+        3,
+        function(t)
+            Distance = t
+        end
+    )
+
+ss:Toggle("Use AirSlash",function(t)
+    airslash = t 
+    while airslash do wait() 
+        pcall(function()
+local args = {
+    [1] = "AirSlash",
+    [2] = Vector3.new(3016.88671875, 208.96415710449, 1410.5828857422)
+}
+
+game:GetService("ReplicatedStorage").Remotes.SkillDamage:FireServer(unpack(args))
+            
+        end) 
+    end 
+end) 
+
+ss:Toggle("Kill Aura",function(t)
+    hit = t 
+    while hit do wait() 
+        pcall(function()
+for i = 1,multiply do 
+function getNil(name,class) for _,v in pairs(getnilinstances())do if v.ClassName==class and v.Name==name then return v;end end end
+
+local args = {
+    [1] = {
+        ["Mobs"] = {
+            [1] = workspace.Enemies[mobs]
+        },
+        ["Animation"] = getNil("Animation", "AnimationTrack"),
+        ["ID"] = 47549600,
+        ["Cancelled"] = {
+            ["fire"] = function()end --[[fire]],
+            ["wait"] = function()end --[[wait]],
+            ["connect"] = function()end --[[connect]]
+        },
+        ["Player"] = game:GetService("Players").LocalPlayer,
+        ["Complete"] = {
+            ["fire"] = function()end --[[fire]],
+            ["wait"] = function()end --[[wait]],
+            ["connect"] = function()end --[[connect]]
+        },
+        ["State"] = "Completed",
+        ["Arguments"] = {},
+        ["Time"] = 1616686392.499,
+        ["Replication"] = {},
+        ["Input"] = "LMB",
+        ["Length"] = 1,
+        ["Name"] = "PunchLMB5",
+        ["Speed"] = 1
+   }
+     }  
+     game:GetService("ReplicatedStorage").Core.Combat.CombatController:FireServer(unpack(args))
+          end 
+      end) 
+   end 
+end) 
+
+ss:Slider("Kill Aura Damage Multiplier",100,1,0,function(t)
+multiply = t 
+end) 
+
+ss:Toggle("Fruit Farm",function(t)
+fruit = t 
+while fruit do wait() 
+pcall(function()
+for i,v in pairs(workspace:GetChildren()) do 
+    if v:IsA("Tool") then 
+        v.Handle.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame 
+           end 
+        end 
+     end) 
+   end 
+end) 
+
+sss:Dropdown("Teleports ShopNPC",Tp_Table,function(t)
+shopnpc = t 
+for i,v in pairs(game:GetService("Workspace").ShopNPCs:GetChildren()) do 
+    if v.Name == shopnpc then 
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame 
+      end 
+   end 
+end) 
