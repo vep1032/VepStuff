@@ -3,10 +3,13 @@ local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/
 local win = VLib:Window("STRAW HUB", Color3.fromRGB(196, 40, 28))
         
 local ss = win:Tab("MAIN")
-            
+local ss1 = win:Tab("MISC")
+local frt = win:Tab("FRUITS")
 local sss = win:Tab("TELEPORTS")
 
 multiply = 5 
+
+local Fruit_Table = { "Bomb", "Hie", "Magu", "Pika", "Yami", "Diamond", "Lightning", "Mera", "Tremor", "Zushi"} 
 
 local Npc_Table = {} 
 for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do 
@@ -171,7 +174,196 @@ ss:Slider("Kill Aura Damage Multiplier",100,1,0,function(t)
 multiply = t 
 end) 
 
-ss:Toggle("Fruit Farm",function(t)
+
+
+ss1:Toggle("Auto Upgrade Strength",function(t)
+str = t 
+while str do wait() 
+    pcall(function()
+local args = {
+    [1] = {
+        ["Value"] = 1,
+        ["Name"] = "Strength",
+        ["Job"] = "UpgradeAttribute"
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ClientE:FireServer(unpack(args))
+    end) 
+  end 
+end) 
+
+ss1:Toggle("Auto Upgrade Sword",function(t)
+str1 = t 
+while str1 do wait() 
+    pcall(function()
+local args = {
+    [1] = {
+        ["Value"] = 1,
+        ["Name"] = "Sword",
+        ["Job"] = "UpgradeAttribute"
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ClientE:FireServer(unpack(args))
+    end) 
+  end 
+end)
+
+ss1:Toggle("Auto Upgrade Endurance",function(t)
+str2 = t 
+while str2 do wait() 
+    pcall(function()
+local args = {
+    [1] = {
+        ["Value"] = 1,
+        ["Name"] = "Endurance",
+        ["Job"] = "UpgradeAttribute"
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ClientE:FireServer(unpack(args))
+    end) 
+  end 
+end) 
+
+ss1:Toggle("Auto Upgrade Gun",function(t)
+str3 = t 
+while str3 do wait() 
+    pcall(function()
+local args = {
+    [1] = {
+        ["Value"] = 1,
+        ["Name"] = "Gun",
+        ["Job"] = "UpgradeAttribute"
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ClientE:FireServer(unpack(args))
+    end) 
+  end 
+end) 
+
+ss1:Toggle("Auto Upgrade DevilFruit",function(t)
+str5 = t 
+while str5 do wait() 
+    pcall(function()
+local args = {
+    [1] = {
+        ["Value"] = 1,
+        ["Name"] = "DevilFruit",
+        ["Job"] = "UpgradeAttribute"
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ClientE:FireServer(unpack(args))
+    end) 
+  end 
+end) 
+
+ss1:Toggle(
+    "Spam E Skill",
+    function(t)
+        skills = t
+        while skills do
+            wait()
+            pcall(
+                function()
+                    local LP = game:GetService("Players").LocalPlayer
+                    local VIM = game:GetService("VirtualInputManager")
+                    VIM:SendKeyEvent(true, Enum.KeyCode.E, false, game)
+                end
+            )
+        end
+    end
+)
+
+ss1:Toggle(
+    "Spam R Skill",
+    function(t)
+        skillsR = t
+        while skillsR do
+            wait()
+            pcall(
+                function()
+                    local LP = game:GetService("Players").LocalPlayer
+                    local VIM = game:GetService("VirtualInputManager")
+                    VIM:SendKeyEvent(true, Enum.KeyCode.R, false, game)
+                end
+            )
+        end
+    end
+)
+
+ss1:Toggle(
+    "Spam F Skill",
+    function(t)
+        skillsf = t
+        while skillsf do
+            wait()
+            pcall(
+                function()
+                    local LP = game:GetService("Players").LocalPlayer
+                    local VIM = game:GetService("VirtualInputManager")
+                    VIM:SendKeyEvent(true, Enum.KeyCode.f, false, game)
+                end
+            )
+        end
+    end
+)
+
+ss1:Toggle(
+    "Spam C Skill",
+    function(t)
+        skillsC = t
+        while skillsC do
+            wait()
+            pcall(
+                function()
+                    local LP = game:GetService("Players").LocalPlayer
+                    local VIM = game:GetService("VirtualInputManager")
+                    VIM:SendKeyEvent(true, Enum.KeyCode.C, false, game)
+                end
+            )
+        end
+    end
+)
+
+ss1:Toggle(
+    "Spam X Skill",
+    function(t)
+        skillsX = t
+        while skillsX do
+            wait()
+            pcall(
+                function()
+                    local LP = game:GetService("Players").LocalPlayer
+                    local VIM = game:GetService("VirtualInputManager")
+                    VIM:SendKeyEvent(true, Enum.KeyCode.X, false, game)
+                end
+            )
+        end
+    end
+)
+
+ss1:Toggle(
+    "Spam V Skill",
+    function(t)
+        skillsV = t
+        pcall(
+            function()
+                while skillsV do
+                    wait()
+                    local LP = game:GetService("Players").LocalPlayer
+                    local VIM = game:GetService("VirtualInputManager")
+                    VIM:SendKeyEvent(true, Enum.KeyCode.V, false, game)
+                end
+            end
+        )
+    end
+)
+
+frt:Toggle("Fruit Farm",function(t)
 fruit = t 
 while fruit do wait() 
 pcall(function()
@@ -184,6 +376,92 @@ for i,v in pairs(workspace:GetChildren()) do
    end 
 end) 
 
+frt:Dropdown("Select Fruit 1",Fruit_Table,function(t)
+    fruits = t 
+end)
+
+frt:Toggle("Autofarm Selected Fruit 1",function(t)
+f = t 
+while f do wait()
+    pcall(function()
+        for i,v in pairs(game:GetService("Workspace"):GetChildren()) do 
+            if v.Name == fruits then 
+                        v.Handle.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame 
+            end 
+        end
+    end)
+end
+end)
+
+frt:Dropdown("Select Fruit 2",Fruit_Table,function(t)
+    fruits2 = t 
+end)
+
+frt:Toggle("Autofarm Selected Fruit 2",function(t)
+f = t 
+while f do wait()
+    pcall(function()
+        for i,v in pairs(game:GetService("Workspace"):GetChildren()) do 
+            if v.Name == fruits2 then 
+                        v.Handle.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame 
+            end 
+        end
+    end)
+end
+end)
+
+frt:Dropdown("Select Fruit 3",Fruit_Table,function(t)
+    fruits3 = t 
+end)
+
+frt:Toggle("Autofarm Selected Fruit 3",function(t)
+f = t 
+while f do wait()
+    pcall(function()
+        for i,v in pairs(game:GetService("Workspace"):GetChildren()) do 
+            if v.Name == fruits3 then 
+                        v.Handle.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame 
+            end 
+        end
+    end)
+end
+end)
+
+frt:Dropdown("Select Fruit 4",Fruit_Table,function(t)
+    fruits4 = t 
+end)
+
+frt:Toggle("Autofarm Selected Fruit 4",function(t)
+f = t 
+while f do wait()
+    pcall(function()
+        for i,v in pairs(game:GetService("Workspace"):GetChildren()) do 
+            if v.Name == fruits4 then 
+                        v.Handle.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame 
+            end 
+        end
+    end)
+end
+end)
+
+frt:Dropdown("Select Fruit 5",Fruit_Table,function(t)
+    fruits5 = t 
+end)
+
+frt:Toggle("Autofarm Selected Fruit 5",function(t)
+f = t 
+while f do wait()
+    pcall(function()
+        for i,v in pairs(game:GetService("Workspace"):GetChildren()) do 
+            if v.Name == fruits5 then 
+                        v.Handle.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame 
+            end 
+        end
+    end)
+end
+end)
+
+        
 sss:Dropdown("Teleports ShopNPC",Tp_Table,function(t)
 shopnpc = t 
 for i,v in pairs(game:GetService("Workspace").ShopNPCs:GetChildren()) do 
