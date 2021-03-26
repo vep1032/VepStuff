@@ -180,50 +180,6 @@ local args = {
    end 
 end) 
 
-ss:Toggle("Sword Kill Aura",function(t)
-    hit1 = t 
-    while hit1 do wait() 
-        pcall(function()
-for i = 1,multiply do 
-
-function getNil(name,class) for _,v in pairs(getnilinstances())do if v.ClassName==class and v.Name==name then return v;end end end
-
-local args = {
-    [1] = {
-        ["Mobs"] = {
-            [1] = workspace.Enemies[mobs]
-        },
-        ["Animation"] = getNil("Animation", "AnimationTrack"),
-        ["ID"] = 5944112,
-        ["Cancelled"] = {
-            ["fire"] = function()end --[[fire]],
-            ["wait"] = function()end --[[wait]],
-            ["connect"] = function()end --[[connect]]
-        },
-        ["Player"] = game:GetService("Players").LocalPlayer,
-        ["Complete"] = {
-            ["fire"] = function()end --[[fire]],
-            ["wait"] = function()end --[[wait]],
-            ["connect"] = function()end --[[connect]]
-        },
-        ["State"] = "Completed",
-        ["Arguments"] = {},
-        ["Time"] = 1616798479.7688,
-        ["Replication"] = {},
-        ["Input"] = "LMB",
-        ["Length"] = 1,
-        ["Name"] = "2SSLMB5"
-        ["Speed"] = 1
-    }
-}
-
-game:GetService("ReplicatedStorage").Core.Combat.CombatController:FireServer(unpack(args))
-
-          end 
-      end) 
-   end 
-end) 
-
 ss:Slider("Kill Aura Damage Multiplier",100,1,0,function(t)
 multiply = t 
 end) 
