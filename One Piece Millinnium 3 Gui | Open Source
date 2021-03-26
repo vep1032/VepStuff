@@ -1,7 +1,17 @@
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/Rgb%20Ui"))()
 
 local win = VLib:Window("STRAW HUB", Color3.fromRGB(196, 40, 28))
-        
+
+--ANTI AFK 
+pcall(function()
+local VirtualUser=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+warn("anti-afk")
+VirtualUser:CaptureController()
+VirtualUser:ClickButton2(Vector2.new())
+   end)
+end) 
+
 local ss = win:Tab("MAIN")
 local ss1 = win:Tab("MISC")
 local frt = win:Tab("FRUITS")
