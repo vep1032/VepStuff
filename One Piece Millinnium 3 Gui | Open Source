@@ -184,7 +184,9 @@ ss:Slider("Kill Aura Damage Multiplier",100,1,0,function(t)
 multiply = t 
 end) 
 
-
+ss1:Button("Copy Straw Hub Discord Link",function()
+setclipboard("https://discord.gg/73jRJuYrnc")
+end) 
 
 ss1:Toggle("Auto Upgrade Strength",function(t)
 str = t 
