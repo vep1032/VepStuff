@@ -139,7 +139,7 @@ game:GetService("ReplicatedStorage").Remotes.SkillDamage:FireServer(unpack(args)
     end 
 end) 
 
-ss:Toggle("Melee Kill Aura",function(t)
+ss:Toggle("Kill Aura/One Shot Kill",function(t)
     hit = t 
     while hit do wait() 
         pcall(function()
@@ -175,6 +175,10 @@ local args = {
    }
      }  
      game:GetService("ReplicatedStorage").Core.Combat.CombatController:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.SkillDamage:FireServer("Lion's Song")
+game:GetService("ReplicatedStorage").Remotes.SkillsCheck:FireServer("Lion's Song",Vector3.new(0, 0, 0))
+
           end 
       end) 
    end 
