@@ -23,6 +23,14 @@ local sss1 =  win:Tab("TELEPORTS")
             table.insert(tool_table, v.Name)
         end
     end
+    
+    local Trainers_Table = {} 
+    for i,v in pairs(game:GetService("Workspace").Trainers:GetChildren()) do 
+        if v:IsA("Model") and not table.find(Trainers_Table,v.Name) then 
+            table.insert(Trainers_Table,v.Name)
+        end 
+    end 
+    
     SelectedWeapon = nil
 
     ss:Dropdown(
@@ -198,4 +206,13 @@ sss1:Dropdown("Teleports Foods",Food_Table,function(t)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
        end 
     end 
+end) 
+
+sss1:Dropdown("Trainers Teleport",Trainers_Table,function(t)
+  TR = t 
+    for i,v in pairs(game:GetService("Workspace").Trainers:GetChildren()) do 
+    if v.Name == TR then 
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame
+    end 
+end 
 end) 
