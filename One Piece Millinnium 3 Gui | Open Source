@@ -23,10 +23,11 @@ local Fruit_Table = { "Bomb", "Hie", "Magu", "Pika", "Yami", "Diamond", "Lightni
 
 local Npc_Table = {} 
 for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do 
-    if v:IsA("Model") and not table.find(Npc_Table,v.Name) then 
+    if v:IsA("Model") and v.Name ~= "DMMY" and not table.find(Npc_Table,v.Name) then 
         table.insert(Npc_Table,v.Name)
     end 
 end 
+
 
 local Tp_Table = {} 
 for i,v in pairs(game:GetService("Workspace").ShopNPCs:GetChildren()) do 
@@ -91,7 +92,7 @@ end)
                 wait()
              pcall(function()
                 for i, v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
-                    if v.Name == mobs and v:FindFirstChild("HumanoidRootPart") then
+                    if v.Name == mobs and v.PrimaryPart ~= nil and  v:FindFirstChild("HumanoidRootPart") then
                         repeat
                             wait()
                             pcall(
@@ -111,6 +112,19 @@ end)
           end
         end
     )
+
+ss:Toggle("REMOVE DUMMIES",function(t)
+    dummy = t 
+        while dummy do wait() 
+    pcall(function()
+   for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do 
+       if v.Name == "DMMY" then 
+         v:Destroy()
+         end 
+      end 
+   end)  
+end
+end) 
 
     Distance = 5
 
