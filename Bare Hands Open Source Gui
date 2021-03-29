@@ -182,6 +182,21 @@ sss:Button("No Cooldown",function()
                 )    
 end) 
 
+sss:Toggle("AutoEat Str Protein Bar",function(t)
+bar = t 
+while bar do wait() 
+    pcall(function()
+        if game.Players.LocalPlayer.PlayerGui.HUD.StrengthIcon.Visible == false then 
+  repeat 
+      wait(1) 
+ fireclickdetector(game:GetService("Workspace").CProtein.ClickDetector)
+game:GetService("ReplicatedStorage").Eat:FireServer("Eat","Chocolate Protein Bar")  
+until game.Players.LocalPlayer.PlayerGui.HUD.StrengthIcon.Visible == true 
+end 
+end) 
+end 
+end) 
+
 sss:Toggle("Auto Eat Crabs",function(t)
   autoeatcrab = t 
   while autoeatcrab do wait() 
@@ -199,6 +214,47 @@ sss:Slider("Eat Percentage",100,1,0,function(t)
 foodv = t     
 end) 
 
+sss:Toggle("Spam R",function(t)
+skill = t
+while skill do wait()
+game:GetService("ReplicatedStorage").Skill:FireServer("r")
+end     
+end) 
+
+sss:Button("NO STUN X",function()
+	local walkspeedplayer = game:GetService("Players").LocalPlayer
+	local walkspeedmouse = walkspeedplayer:GetMouse()
+	
+	local walkspeedenabled = false
+	
+	function x_walkspeed(key)
+		if (key == "x") then
+			if walkspeedenabled == false then
+				_G.WS = 75;
+				local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+				Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+				Humanoid.WalkSpeed = _G.WS;
+				end)
+				Humanoid.WalkSpeed = _G.WS;
+				
+				walkspeedenabled = true
+			elseif walkspeedenabled == true then
+				_G.WS = 20;
+				local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+				Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+				Humanoid.WalkSpeed = _G.WS;
+				end)
+				Humanoid.WalkSpeed = _G.WS;
+				
+				walkspeedenabled = false
+			end
+		end
+	end
+	
+	walkspeedmouse.KeyDown:connect(x_walkspeed)
+	    
+end) 
+
 sss1:Dropdown("Teleports Foods",Food_Table,function(t)
     foodtp = t 
     for i,v in pairs(game:GetService("Workspace").Sellers:GetChildren()) do 
@@ -212,7 +268,7 @@ sss1:Dropdown("Trainers Teleport",Trainers_Table,function(t)
   TR = t 
     for i,v in pairs(game:GetService("Workspace").Trainers:GetChildren()) do 
     if v.Name == TR then 
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame
-    end 
-end 
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame
+      end 
+   end 
 end) 
