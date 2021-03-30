@@ -13,26 +13,6 @@ VirtualUser:ClickButton2(Vector2.new())
 end) 
 
 ---------------CREDITS TO DEMON SLAYER FOR REMOVE FAKES!!-------------------------
-function removeFake()
-    for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
-        if v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") then
-            else
-                v:Destroy()
-            end
-        end
-    end
-
-    function removeFake2()
-        for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
-            if v.Humanoid.MaxHealth > v.Humanoid.Health then
-                v:Destroy()
-                end
-            end
-        end
-        
-        
-removeFake()
-removeFake2()
 
 --------------------------------------------
 
@@ -137,17 +117,32 @@ end)
         end
     )
 
-ss:Toggle("REMOVE DUMMIES",function(t)
-    dummy = t 
-        while dummy do wait() 
+ss:Toggle("REMOVE FAKES",function(t)
+fake = t 
+while fake do wait() 
     pcall(function()
-   for i,v in pairs(game:GetService("ReplicatedStorage"):GetChildren()) do 
-       if v.Name == "Dummy" then 
-         v:Destroy()
-         end 
-      end 
-   end)  
-end
+function removeFake()
+    for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
+        if v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") then
+            else
+                v:Destroy()
+            end
+        end
+    end
+
+    function removeFake2()
+        for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
+            if v.Humanoid.MaxHealth > v.Humanoid.Health then
+                v:Destroy()
+                end
+            end
+        end
+        
+        
+removeFake()
+removeFake2()
+      end)  
+   end 
 end) 
 
     Distance = 5
