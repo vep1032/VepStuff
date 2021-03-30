@@ -12,6 +12,30 @@ VirtualUser:ClickButton2(Vector2.new())
    end)
 end) 
 
+---------------CREDITS TO DEMON SLAYER FOR REMOVE FAKES!!-------------------------
+function removeFake()
+    for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
+        if v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") then
+            else
+                v:Destroy()
+            end
+        end
+    end
+
+    function removeFake2()
+        for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
+            if v.Humanoid.MaxHealth > v.Humanoid.Health then
+                v:Destroy()
+                end
+            end
+        end
+        
+        
+removeFake()
+removeFake2()
+
+--------------------------------------------
+
 local ss = win:Tab("MAIN")
 local ss1 = win:Tab("MISC")
 local frt = win:Tab("FRUITS")
