@@ -1,23 +1,18 @@
-local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/Rgb%20Ui"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local VirtualUser=game:service'VirtualUser'
-game:service'Players'.LocalPlayer.Idled:connect(function()
-warn("anti-afk")
-VirtualUser:CaptureController()
-VirtualUser:ClickButton2(Vector2.new())
-end)
+local Themes = {LightTheme, DarkTheme, GrapeTheme, BloodTheme, Ocean, Midnight, Sentinel, Synapse} 
 
-pcall(function()
-game.Players.LocalPlayer.Character.Animate.sit:Destroy()
-end) 
+local Window = Library.CreateLib("Straw Hub", "BloodTheme")
 
-local win = VLib:Window("STRAW HUB", Color3.fromRGB(196, 40, 28))
-        
-local ss = win:Tab("MAIN")
-local sss = win:Tab("MISC")
-local sss1 =  win:Tab("TELEPORTS")
- 
- local tool_table = {}
+local s = Window:NewTab("MAIN")
+local s1 = Window:NewTab("MISC")
+local s2 = Window:NewTab("TELEPORTS")
+
+local ss = s:NewSection("AutoMation")
+local sss = s1:NewSection("Misc Stuff")
+local sss1 = s2:NewSection("All Tp")
+
+local tool_table = {}
     for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
         if v:IsA("Tool") then
             table.insert(tool_table, v.Name)
@@ -33,16 +28,16 @@ local sss1 =  win:Tab("TELEPORTS")
     
     SelectedWeapon = nil
 
-    ss:Dropdown(
-        "Select Tool",
+    ss:NewDropdown(
+        "Select Tool","Tool To Equip",
         tool_table,
         function(SelectedOption)
             SelectedWeapon = SelectedOption
         end
     )
 
-ss:Toggle(
-        "AutoEquip",
+ss:NewToggle(
+        "AutoEquip","Equip Tool",
         function(t)
             Equip = t
             while wait() do
@@ -66,7 +61,7 @@ for i,v in pairs(game:GetService("Workspace").Sellers:GetChildren()) do
   end 
 end
 
-ss:Toggle("Autofarm Durability",function(t)
+ss:NewToggle("Autofarm Durability","Farms Durability",function(t)
     durafarm = t 
     while durafarm do wait(Wait_Time) 
       pcall(function()
@@ -75,7 +70,7 @@ ss:Toggle("Autofarm Durability",function(t)
     end 
 end) 
 
-ss:Toggle("Autofarm Pushups",function(t)
+ss:NewToggle("Autofarm Pushups","Farms Pushups",function(t)
     pushupfarm = t 
     while pushupfarm do wait(Wait_Time)  
       pcall(function()
@@ -84,11 +79,11 @@ game.Players.LocalPlayer.Character["Strength Training"].Pushup:FireServer("Pushu
     end 
 end) 
 
-ss:Slider("Wait Time For Training",100,1,-5,function(t)
+ss:NewSlider("Wait Time For Training","Wait Amount Of Seconds Set Depending On Training Time",100,1,-5,function(t)
 Wait_Time =  t     
 end) 
 
-ss:Toggle("Legit Box Farm",function(t)
+ss:NewToggle("Legit Box Farm","Looks Legit/Fair",function(t)
 legitfarm = t 
 while legitfarm do wait() 
     pcall(function()
@@ -106,7 +101,7 @@ end)
 end 
 end) 
 
-ss:Toggle("Op Autofarm Strength",function(t)
+sss:NewToggle("Op Autofarm Strength","Inf Hits With Bags Farm",function(t)
 strengthfarm = t 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-247.390213, 3.51877284, -5.48023033)
 while strengthfarm do wait()
@@ -122,7 +117,7 @@ while strengthfarm do wait()
     end 
 end) 
 
-ss:Toggle("Gang Base Farm",function(t)
+sss:NewToggle("Gang Base Farm","Gets The Gang Base",function(t)
 gemfarm = t
 while gemfarm do wait() 
 pcall(function()
@@ -146,10 +141,8 @@ until game.Players.LocalPlayer.Character.Humanoid.Health >= 98
 end
 end) 
 
-ss:Label("Gang Base Farm Only Supports")
-ss:Label("The Hidden Ninjas Gang")
 
-sss:Toggle("Punch Kill Aura",function(t)
+sss:NewToggle("Punch Kill Aura","Infinite Hits",function(t)
 punch = t 
 while punch do wait() 
     pcall(function()
@@ -159,7 +152,7 @@ while punch do wait()
 end) 
 
 
-ss:Toggle("Farm Speed/Stam",function(t)
+sss:NewToggle("Farm Speed/Stam","Gets You Speed/Stam",function(t)
 speed = t 
 while speed do wait() 
     pcall(function()
@@ -169,7 +162,7 @@ game:GetService("ReplicatedStorage").Run:FireServer("RunOn")
    end 
 end) 
 
-sss:Button("No Cooldown",function()
+sss:NewButton("No Cooldown","Remove Hit Cooldown",function()
  Timer =
                     hookfunction(
                     wait,
@@ -182,7 +175,7 @@ sss:Button("No Cooldown",function()
                 )    
 end) 
 
-sss:Toggle("AutoEat Str Protein Bar",function(t)
+sss:NewToggle("AutoEat Str Protein Bar","Eats Str Protein Bar",function(t)
 bar = t 
 while bar do wait() 
     pcall(function()
@@ -197,7 +190,7 @@ end)
 end 
 end) 
 
-sss:Toggle("Auto Eat Crabs",function(t)
+sss:NewToggle("Auto Eat Crabs","Eats Crabs When Below Percentage",function(t)
   autoeatcrab = t 
   while autoeatcrab do wait() 
       pcall(function()
@@ -210,18 +203,18 @@ sss:Toggle("Auto Eat Crabs",function(t)
    end 
 end) 
 
-sss:Slider("Eat Percentage",100,1,0,function(t)
+sss:NewSlider("Eat Percentage","Set Eat Below The Amount",100,1,0,function(t)
 foodv = t     
 end) 
 
-sss:Toggle("Spam R",function(t)
+sss:NewToggle("Spam R","Spams R",function(t)
 skill = t
 while skill do wait()
 game:GetService("ReplicatedStorage").Skill:FireServer("r")
 end     
 end) 
 
-sss:Button("NO STUN X",function()
+sss:NewButton("NO STUN X","Press X For No Stun", function()
 	local walkspeedplayer = game:GetService("Players").LocalPlayer
 	local walkspeedmouse = walkspeedplayer:GetMouse()
 	
@@ -255,7 +248,7 @@ sss:Button("NO STUN X",function()
 	    
 end) 
 
-sss1:Dropdown("Teleports Foods",Food_Table,function(t)
+sss1:NewDropdown("Teleports Foods","Food Tp",Food_Table,function(t)
     foodtp = t 
     for i,v in pairs(game:GetService("Workspace").Sellers:GetChildren()) do 
       if v.Name == foodtp then 
@@ -264,7 +257,7 @@ sss1:Dropdown("Teleports Foods",Food_Table,function(t)
     end 
 end) 
 
-sss1:Dropdown("Trainers Teleport",Trainers_Table,function(t)
+sss1:NewDropdown("Trainers Teleport","Trainers To Tp",Trainers_Table,function(t)
   TR = t 
     for i,v in pairs(game:GetService("Workspace").Trainers:GetChildren()) do 
     if v.Name == TR then 
