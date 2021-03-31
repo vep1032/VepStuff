@@ -1131,3 +1131,140 @@ end)
 cred:Label("MADE BY VEP#1003")
 
 end 
+
+
+if game.PlaceId ==  2569625809 or game.PlaceId == 566399244 or game.PlaceId == 570158081 or game.PlaceId == 537600204  then 
+
+    local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/Rgb%20Ui"))()
+
+       MAINTTL = "VAPE HUB"
+       
+      local win = VLib:Window("ELEMENTAL BG", Color3.fromRGB(196, 40, 28))
+            local UI = win:Tab("MAIN")
+            local UI2 = win:Tab("MISC")
+            
+            UI:Toggle("Autofarm Diamonds",function(t)
+                getgenv().diamond = t 
+                while wait() do 
+                    if getgenv().diamond then 
+                        for i,v in pairs(game:GetService("Workspace")[".Ignore"][".ServerEffects"]:GetChildren()) do 
+                            if v.Name == "Diamond" then 
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame 
+                            end; 
+                        end; 
+                    end; 
+                end;
+            end)
+            
+               UI:Toggle("Autofarm Shards",function(t)
+                getgenv().Shards = t 
+                while wait() do 
+                    if getgenv().Shards then 
+                        for i,v in pairs(game:GetService("Workspace")[".Ignore"][".ServerEffects"]:GetChildren()) do 
+                            if v.Name == "Shard" then 
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame 
+                            end; 
+                        end; 
+                    end; 
+                end;
+            end)
+            
+            UI:Toggle("Autofarm Exp Grass",function(t)
+                getgenv().grass = t
+             while wait() do
+                 if getgenv().grass then 
+                        game:GetService("ReplicatedStorage").Remotes.DoClientMagic:FireServer("Grass","Spore Bombs")
+                 
+                    
+                     wait()
+                   
+                        game:GetService("ReplicatedStorage").Remotes.DoMagic:InvokeServer("Grass","Spore Bombs",CFrame.new(-1632.29602, 40.9587402, 921.052429, 0.94363457, -0.0706476048, -0.323361903, -0, 0.976955473, -0.213443667, 0.33098945, 0.201412827, 0.921888769))
+                  
+                     wait()
+                     
+                        game:GetService("ReplicatedStorage").Remotes.DoMagic:InvokeServer("Grass","Poison Needles")
+                  
+            wait()
+            
+                game:GetService("ReplicatedStorage").Remotes.DoMagic:InvokeServer("Grass","Poison Needles")
+            
+             wait()
+            
+                game:GetService("ReplicatedStorage").Remotes.DoClientMagic:FireServer("Grass","Poison Needles")
+             
+                 end
+             end
+            end)
+            
+            
+            UI:Toggle("Autofarm Exp (Fire)", function(t)
+          getgenv().fire = t
+             while wait() do
+                 if getgenv().fire then 
+                game:GetService("ReplicatedStorage").Remotes.DoMagic:InvokeServer("Fire","Consecutive Fire Bullets",CFrame.new(-1632.29602, 40.9587402, 921.052429, 0.94363457, -0.0706476048, -0.323361903, -0, 0.976955473, -0.213443667, 0.33098945, 0.201412827, 0.921888769))
+            
+                wait()
+                
+                game:GetService("ReplicatedStorage").Remotes.DoClientMagic:FireServer("Fire","Consecutive Fire Bullets")
+                
+                wait()
+                
+                game:GetService("ReplicatedStorage").Remotes.DoMagic:InvokeServer("Fire","Blaze Column")
+                
+                wait()
+                
+                game:GetService("ReplicatedStorage").Remotes.DoClientMagic:FireServer("Fire","Blaze Column")
+                
+                wait()
+                 end
+        end
+            end)
+            
+            
+            UI:Toggle( "AutoFarm Exp (Water)", function(t)
+                        getgenv().water = t
+             while wait() do
+                 if getgenv().water then 
+                game:GetService("ReplicatedStorage").Remotes.DoMagic:InvokeServer("Water","Water Beam")
+            
+                wait()
+                
+                game:GetService("ReplicatedStorage").Remotes.DoClientMagic:FireServer("Water","Water Beam")
+                
+                wait()
+                
+                game:GetService("ReplicatedStorage").Remotes.DoMagic:InvokeServer("Water","Water Tornado")
+                
+                wait()
+                
+                game:GetService("ReplicatedStorage").Remotes.DoClientMagic:FireServer("Water","Water Tornado")
+                
+                 end
+            end
+                end)
+            
+
+            
+            
+            
+            getgenv().farmer = false
+            UI2:Toggle("Anti Afk",function(state)
+                getgenv().farmer = not getgenv().farmer
+                if getgenv().farmer then 
+                    local vu = game:GetService("VirtualUser")
+                    game:GetService("Players").LocalPlayer.Idled:connect(function()
+                        vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+                        wait(1)
+                        vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+                    end)
+                end
+            end)
+   
+              local cred = win:Tab("CREDITS")
+cred:Button("Copy Discord Server",function()
+setclipboard("https://discord.gg/73jRJuYrnc")
+end) 
+
+cred:Label("MADE BY VEP#1003")
+
+            end
