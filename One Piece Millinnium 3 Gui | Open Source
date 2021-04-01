@@ -1,6 +1,9 @@
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/Rgb%20Ui"))()
 
-local win = VLib:Window("STRAW HUB", Color3.fromRGB(196, 40, 28))
+MAINTTL = "STRAW HUB"
+
+local win = VLib:Window("OPM3", Color3.fromRGB(196, 40, 28))
+
 
 --ANTI AFK 
 pcall(function()
