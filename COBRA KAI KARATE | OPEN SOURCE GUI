@@ -67,6 +67,38 @@ LP.Character.Head.PlayerHeader:Destroy()
 end) 
 
 
+ss:Label("THE BOTTOM FEATURES ARE FOR PEOPLE WITH GAMEPASS")
+
+
+ss:Toggle("AutoClick Benchpress OP",function(t)
+bench = t 
+while bench do wait() 
+    pcall(function()
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+end ) 
+end 
+end) 
+
+ss:Toggle("AutoUse Dumbells",function(t)
+dumb = t 
+while dumb do wait() 
+    pcall(function()
+game:GetService("ReplicatedStorage").Remotes.Dumbell:FireServer("Equip") 
+game:GetService("ReplicatedStorage").Remotes.Dumbell:FireServer("Rep",math.random(1,2))
+end) 
+end 
+end) 
+
+ss:Button("Invite Everyone In Dojo",function()
+for i,v in pairs(game.Players:GetChildren()) do 
+    if v~= game.Players.LocalPlayer then 
+game:GetService("ReplicatedStorage").Invite:FireServer(v.Name)
+        end   
+    end 
+end) 
+
+
+
 sss:Label("MADE BY VEP#1003")
 
 sss:Label("BUY STRAW HUB NOW")
