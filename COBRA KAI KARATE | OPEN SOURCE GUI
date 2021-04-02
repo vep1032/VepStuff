@@ -66,6 +66,22 @@ ss:Button("HideName",function()
 LP.Character.Head.PlayerHeader:Destroy()    
 end) 
 
+ss:Button("Hide Accesory",function()
+    ss:Button("Remove Accesory", function(t)
+    local player = game.Players.LocalPlayer
+    for i,v in pairs(player.Character:GetChildren()) do
+       if v.ClassName == "Accessory" or v.Name == "Belt" or v.Name == "Shirt" or v.Name == "Pants" then
+           v:Destroy()
+           local player = game.Players.LocalPlayer
+           for i,v in pairs(player.Character.Head:GetChildren()) do
+                   if v:IsA("Decal") then
+                   v:remove()
+                   end
+               end
+       end
+    end
+end)
+end) 
 
 ss:Label("THE BOTTOM FEATURES ARE FOR PEOPLE WITH GAMEPASS")
 
