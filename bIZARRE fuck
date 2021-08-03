@@ -1,0 +1,87 @@
+local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/Rgb%20Ui"))()
+
+MAINTTL = "Vep's Free Script" 
+
+local win = VLib:Window("Bizarre FUCK", Color3.fromRGB(196, 40, 28))
+
+
+local ss = win:Tab("MAIN")
+
+
+--ANTI AFK 
+pcall(function()
+local VirtualUser=game:service'VirtualUser'
+   game:service'Players'.LocalPlayer.Idled:connect(function()
+     VirtualUser:CaptureController()
+     VirtualUser:ClickButton2(Vector2.new())
+    end)
+end) 
+
+local Mobs_Table = {} 
+for i,v in pairs(game:GetService("Workspace").Live:GetChildren()) do 
+    if v:IsA("Model") and not table.find(Mobs_Table,v.Name) then 
+        table.insert(Mobs_Table,v.Name)
+    end 
+end 
+
+ss:Dropdown("Mobs To Farm",Mobs_Table,function(t)
+Npc = t     
+end) 
+
+ss:Toggle("Autofarm Mobs",function(t)
+
+    pcall(function()
+    game:GetService("RunService").Stepped:Connect(function()
+        if Enabled then
+            game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+
+Enabled = t 
+while Enabled do wait() 
+    pcall(function()
+for i,v in pairs(game:GetService("Workspace").Live:GetChildren()) do 
+if v.Name == Npc and v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") then 
+  repeat  
+       wait() 
+       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v.HumanoidRootPart.Position + Vector3.new(0,5,0),v.HumanoidRootPart.Position)
+until v.Humanoid.Health <= 0 or Enabled == false 
+end 
+end 
+end)
+end 
+end)
+
+ss:Toggle("AutoHit",function(t)
+hit = t 
+while hit do wait() 
+    pcall(function()
+game:GetService("Players").LocalPlayer.Backpack.Input:FireServer("m1")
+end) 
+end 
+end)     
+
+
+
+    local JSONEncode, JSONDecode, GenerateGUID = 
+        game.HttpService.JSONEncode, 
+        game.HttpService.JSONDecode,
+        game.HttpService.GenerateGUID
+    local Request = syn and syn.request or request
+    Request({
+            Url = "http://127.0.0.1:6463/rpc?v=1",
+            Method = "POST",
+            Headers = {
+                ["Content-Type"] = "application/json",
+                ["Origin"] = "https://discord.com"
+            },
+            Body = JSONEncode(game.HttpService, {
+                cmd = "INVITE_BROWSER",
+                args = {
+                    code = "manjis"
+                },
+                nonce = GenerateGUID(game.HttpService, false)
+            }),
+        })
+
