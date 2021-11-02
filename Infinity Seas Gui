@@ -1,0 +1,149 @@
+
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/astraln/SentinelUILIB/main/UI.lua', true))()
+
+local win= Library:Window('Veps Script')
+
+
+
+    local ss = win:Tab("MAIN")
+    local sss = win:Tab("MISC")
+
+local Chests = {} 
+for i,v in pairs(game:GetService("Workspace").Game.Chests:GetChildren()) do 
+    if not table.find(Chests,v.Name) then 
+        table.insert(Chests,v.Name)
+    end 
+end 
+
+local Mobs_Table = {} 
+for i,v in pairs(game:GetService("Workspace").Game.Characters.Mobs:GetDescendants()) do 
+    if v:IsA("Model") and not table.find(Mobs_Table,v.Name) then 
+        table.insert(Mobs_Table,v.Name)
+    end 
+end 
+
+ss:Dropdown("Chests To Farm",Chests,function(t)
+ChestT = t     
+end) 
+
+ss:Toggle("Farm Chest",false,function(t)
+    Farm = t 
+    while Farm do wait() 
+        pcall(function()
+            for i,v in pairs(game:GetService("Workspace").Game.Chests:GetChildren()) do 
+            if v.Name == ChestT and v.Transparency == 0 then 
+                repeat 
+                    wait() 
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame 
+                game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.T, false, game)
+              until v.Transparency == 1 or Farm == false 
+            end 
+       end 
+        end) 
+   end 
+end) 
+
+ss:Toggle("Farm All Chests",false,function(t)
+    Farm1 = t 
+    while Farm1 do wait() 
+        pcall(function()
+           for i,v in pairs(game:GetService("Workspace").Game.Chests:GetChildren()) do 
+                         if  v.Transparency == 0 then 
+                repeat 
+                    wait() 
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame 
+                game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.T, false, game)
+                         until v.Transparency == 1 or Farm1 == false 
+                 end 
+            end 
+        end) 
+   end 
+end) 
+
+ss:Dropdown("Mobs To Farm",Mobs_Table,function(t)
+npc = t     
+end) 
+
+ss:Toggle("Autofarm Mobs",false,function(t)
+
+    pcall(function()
+    game:GetService("RunService").Stepped:Connect(function()
+        if Enabled then
+            game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+
+Enabled = t 
+while Enabled do wait() 
+    pcall(function()
+for i,v in pairs(game:GetService("Workspace").Game.Characters.Mobs:GetDescendants()) do 
+if v.Name == npc and v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") then 
+  repeat  
+       wait() 
+       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v.HumanoidRootPart.Position + Vector3.new(0,5,0),v.HumanoidRootPart.Position)
+until v.Humanoid.Health <= 0 or Enabled == false 
+end 
+end 
+end)
+end 
+end)
+ss:Toggle("KillAura",false,function(t)
+kaura =t 
+while kaura do wait() 
+    pcall(function()
+game:GetService("ReplicatedStorage").Remotes.Geral:FireServer("Skill",game:GetService("ReplicatedStorage").Modules.FightStyles.Combat,"Fire","LLLL")
+    end) 
+  end 
+end) 
+
+Stats = {"Defense","Fruit","Gun","Strenght","Blade"} 
+sss:Dropdown("Stats To Farm",Stats,function(t)
+    stt = t 
+end) 
+
+sss:Toggle("Farm Stat",false,function(t)
+    farmst = t 
+    while farmst do wait() 
+        pcall(function()
+
+game:GetService("ReplicatedStorage").Remotes.Geral:FireServer("AddPoints",stt,1)        
+        end) 
+    end 
+    
+end) 
+
+sss:Button("HideName",function(t)
+hide =t 
+while hide do wait() 
+    pcall(function()
+        game.Players.LocalPlayer.Character.Head.Overhead:Destroy()
+    end) 
+end 
+
+end) 
+
+sss:Button("SCRIPT MADE BY VEP")
+sss:Button("UI MADE BY ASTRAL")
+
+local JSONEncode, JSONDecode, GenerateGUID = 
+    game.HttpService.JSONEncode, 
+    game.HttpService.JSONDecode,
+    game.HttpService.GenerateGUID
+local Request = syn and syn.request or request
+Request({
+        Url = "http://127.0.0.1:6463/rpc?v=1",
+        Method = "POST",
+        Headers = {
+            ["Content-Type"] = "application/json",
+            ["Origin"] = "https://discord.com"
+        },
+        Body = JSONEncode(game.HttpService, {
+            cmd = "INVITE_BROWSER",
+            args = {
+                code = "wynPh2mvs3"
+            },
+            nonce = GenerateGUID(game.HttpService, false)
+        }),
+    })
+
