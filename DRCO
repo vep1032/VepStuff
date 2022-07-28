@@ -1,5 +1,5 @@
 
-register_key = getgenv().Key
+
 
 ([[
                 This script has been licensed using Luauth
