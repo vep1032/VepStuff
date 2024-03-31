@@ -1,1 +1,1676 @@
-for l,e in pairs({(function(e,...)_21dbbf3f9fa0fbbb="This file was obfuscated using PSU Obfuscator 4.5.A | https://www.psu.dev/ & discord.gg/psu";local N=_21dbbf3f9fa0fbbb local Y=e['od6JcFQh'];local E=e[(928366404)];local a=e['tRCH4'];local J=e[(518828973)];local R=e[((#{205;121;}+682048896))];local W=e[((728131384-#("never gonna give you up")))];local d=e[((324246402-#("there are was no bytecode")))];local T=e[((#{(function(...)return...;end)(451)}+685321124))];local _=e[(49318203)];local z=e[(418280608)];local U=e[(932183519)];local k=e[((#{80;(function(...)return 977,632;end)()}+183319008))];local b=e[(947324814)];local c=e[(496382314)];local V=e[((#{}+146853186))];local o=e[((334096847-#("belo pau amigo")))];local u=e[(371046078)];local v=e.lMky7QCVo;local f=e[(856005378)];local g=e[((986912655-#("perth")))];local n=e[((171434965-#("stfu and get back into my basement")))];local H=e['Dn5S7z0w6'];local G=e[((288342170-#("skorpion is very cool")))];local y=e[(896605379)];local t=e[((#{823;118;90;}+425534194))];local s=e[((163989655-#("My creamy nuts are on top")))];local X=e[((#{(function(...)return 363,...;end)(506)}+297767319))];local Z=e[((#{374;65;22;776;(function(...)return 696,153,514,405;end)()}+951921984))];local D=e.r7UEury1e;local O=e[((#{608;656;}+111601905))];local w=e[((#{918;128;(function(...)return;end)()}+471661158))];local h=e[(560020326)];local m=e['NWWZoBF2v'];local M=((getfenv)or(function(...)return(_ENV);end));local i,r,l=({}),(""),(M(n));local i=((l[""..e[f].."\105"..e[a]..e[k].."\50"])or(l["\98"..e[s].."\116"])or({}));local o=(((i)and(i["\98"..e[o].."\111\114"]))or(function(e,o)local l,n=n,d;while((e>d)and(o>d))do local a,c=e%t,o%t;if a~=c then n=n+l;end;e,o,l=(e-a)/t,(o-c)/t,l*t;end;if e<o then e=o;end;while e>d do local o=e%t;if o>d then n=n+l;end;e,l=(e-o)/t,l*t;end;return(n);end));local x=(t^w);local F=(x-n);local C,B,p;local Q=(r["\99\104"..e[h]..e.gkJ7Eguw0c]);local x=(r[""..e[f]..e[u].."\116"..e[c]]);local u=(r[""..e[g]..e[m]..e[f]]);local r=(r[""..e[O].."\115"..e[m]..e[f]]);local r=((l["\117"..e[D].."\112\97\99"..e[y]])or(l["\116\97\98"..e.xzksO.."\101"]["\117\110"..e[H].."\97"..e[b]..e[y]]));local O=(l[""..e[g].."\116\114"..e[s].."\110\103"]["\109\97"..e[a]..e[b].."\104"]);local L=function(l,n,e)return e+n or l*e end;local y=(l[""..e["gkJ7Eguw0c"].."\97\119\115"..e[c].."\116"]);local y=(l["\115"..e[c].."\116\109"..e[c]..e[a].."\97"..e[a].."\97\98\108"..e[c]]);local y=(l["\116\121\112"..e[c]]);local S=(l["\112\99"..e[h]..e["xzksO"].."\108"]);local m=(l["\116\111"..e[D]..e[m].."\109\98\101\114"]);local P=(l["\115"..e[c]..e["xzksO"]..e[c]..e[b]..e[a]]);local I=(l[""..e[H]..e[h]..e[s].."\114\115"]);local H=((l["\109"..e[h]..e[a]..e[v]]["\108"..e["YH75uQ5z"]..e[c].."\120\112"])or(function(e,l,...)return((e*t)^l);end));local y=(l["\109\97"..e[a].."\104"]["\102\108"..e[E]..e[E].."\114"]);B=((i[""..e["gkJ7Eguw0c"].."\115"..e[v].."\105"..e[U].."\116"])or(function(l,e,...)if(e<d)then return(C(l,-(e)));end;return(y(l%t^w/t^e));end));C=((i[""..e['xzksO']..e[g].."\104"..e[s].."\102"..e[a]])or(function(l,e,...)if(e<d)then return(B(l,-(e)));end;return((l*t^e)%t^w);end));p=(i[""..e[f].."\97\110\100"])or(function(e,l,...)return(((e+l)-o(e,l))/t);end);local w=(i["\98"..e[E]..e.gkJ7Eguw0c])or(function(l,e,...)return(F-p(F-l,F-e));end);local t=(i["\98\110"..e[E]..e[a]])or(function(e,...)return(F-e);end);if((not(l[""..e[f].."\105"..e[a]..e[k].."\50"]))and(not(l["\98"..e[s].."\116"])))then i[""..e[f]..e[E].."\114"]=w;i[""..e[f].."\110\111\116"]=t;i[""..e[f].."\120\111\114"]=o;i[""..e.gkJ7Eguw0c..e[g].."\104"..e[s].."\102\116"]=B;i["\98\97"..e[D].."\100"]=p;i[""..e['xzksO'].."\115\104\105\102"..e[a]]=C;end;local F=(l[""..e[a]..e[h]..e[f].."\108\101"]["\99\111"..e[D]..e[b].."\97\116"]);local t=(l[""..e[a]..e[h].."\98\108"..e[c]][""..e['gkJ7Eguw0c']..e[c]..e[W]..e[E].."\118"..e[c]]);local t=""..e.T3aO3f5kY..e[J].."\37\100"..e[_]..e[X]..e['T3aO3f5kY'];local f=(l["\116"..e[h]..e[f]..e.xzksO..e[c]][""..e[s]..e[D]..e[g]..e[c].."\114"..e[a]]);local s=(((l[""..e[a].."\97\98"..e.xzksO..e[c]]["\99\114\101\97\116"..e[c]]))or((function(e,...)return({r({},d,e);});end)));l["\98\105"..e[a]..e[k]..e['moEdmc3n']]=i;local l=((-T+(function()local a,e=d,n;(function(n,e,l)e(l(e,e,e),l(l,n,l),n(n,e,l))end)(function(c,l,o)if a>G then return c end a=a+n e=(e+z)%Z if(e%R)<Y then e=(e-V)%((#{}+29135))return c(l(o,l,l),l(l,o,o),l(c,o,o))else return c end return l end,function(l,o,c)if a>(429)then return l end a=a+n e=(e+(810))%((#{830;(function(...)return;end)()}+29847))if(e%(696))>(348)then return o(l(l,l,o and o),l(l,l,o),l(o,c,l))else return o end return c end,function(o,l,c)if a>((180-#("no he doesnt need help")))then return l end a=a+n e=(e*(312))%((#{276;93;621;(function(...)return 142,330,738;end)()}+36569))if(e%((1725-#("im a spice head"))))>((875-#("Jackson Jack Tension")))then return c(o(l,o,o),o(o and l,c,l)and l(c,l,o),c(o,o and o,l)and o(l,l,o))else return l end return l end)return e;end)()));local a,c=S(function(e)local l,o=e()local e,a=l(e(m),o)local l,e=l(L,d,nil,o)return m(O(e,t))-m(O(a,t))+n end,function(e)if e then return function(e)return e()end else return S,''end end)   local a=(#N+(165));local i,D=({}),({});for e=d,a-n do local l=Q(e);i[e]=l;D[e]=l;D[l]=e;end;local h,c=(function(o)local c,t,e=x(o,c,(3));if((c+t+e)~=(248))then l=l+((#{948;375;948;}+69));a=a+((260-#("GaySense?")));end;o=u(o,((20-#("i love gay porn"))));local l,c,t=(""),(""),({});local e=n;local function r()local l=m(u(o,e,e),((100-#("Raid: Shadow Legends here, I can confirm this script was skidded"))));e+=n;local n=m(u(o,e,e+l-n),(36));e+=l;return(n);end;l=D[r()];t[n]=l;while(e<#o)do local e=r();if i[e]then c=i[e];else c=l..u(l,n,n);end;i[a]=l..u(c,n,n);t[#t+n],l,a=c,c,a+n;end;return(F(t));end)("PSU|21L141410277278101212279275277111h1G27910111a1b2781127P1f1e27O27P21f21e27J27J1D1D1h1h27723I23I27J1822024C25Y1a27721Y21b1r1N21i21i1N141j1N23N26W1927721v1C1t1017151r121723t25R182772252141m101I16121M24v2621627722A21J18121r1H21821S28p1029g1m131v111T1m1m25D2522761022621b1c1823E1R2A022v162a425529D27721U1z1l101O1921822g28229p21J1L1S151a121l1h1121J2131r1T1J29926L23L29o2251Y1B11191Y2a31826l23W2a022C21d1t1c1723H27S102251822t23b1M1F1q23822u27R1F1s23e2101E2a021z214141U1623D28B1021z1y1h21328i141v1A162552611527721w1X191D1o25T24o27j26O25r1R21027F27H27j1i1o1D172791x1Z1c2bO2771i1b1G29o27b112112D227b2771X1X27e2782Dq182922Dt1z13112792DG1927I27a1211181a13277131321D1q2121D1a2E92ed1Q2151216162Ec1121e21f102eC2752E71b27C1015152eE217101F1f2f12ee2131C1b1B2f12EX2eZ2eO2f32F51f2fh1q2FA2Fc2Eo2FF27717172er2et27B2dV2fU2E519192dg1l1C2772eI111k2ah27p2Fc2e027k2fc2g02FY27B2EI2G22g4102Gb2G82781c1c2gc112GP2g627F2ei2Dv1H21k1X182F12Fs2F92FB1B2FS2Gr2fs2752GY219142eC2eQ162D92Ec27F27V27X2792ec2Dv27726P26y27N1021V217191f191221I2131l2aV2182262D91022821O2CU1S1n1124V25Z2Hs2242dC121d21O2I91O2IB26Y23z2i621x2171f131e191124526T2A82AA1825525x29o2HU191j1J121n1H1N25129127722021p1o1c1F11161d23N26f27j21222U2242GK27g2e42782d6192eA27823O24j2132GL2HS2EB2K22d62C42da1X27P2kD2do2DT1x2F12kd2EO2Da1z2Ez2jZ1B1U2I62dK2HG2E52HJ27W2Hl2772GP1p1P28328527x21G2102e42ji2jk2jm2jo21i21p102D121D2B225i2512i62i82Ia2Ic21M21t2dW22c2121J182Fs171922B21p29o22f21k1t1p1O131h2eN2442J02772BT181t24z25O2Hs2CE1h21j2171115181m1n1b2132lR2Jh2jj2Jl2Jn1d24526v29E2Ht1521g1J2a425Z24X2K22321B1i24r2632i629G29i29K1m2442JR2791k22C2652412GK2212131o1P141E28H28J28L1123c2IG2iI2IK2iM2IB1123b2a02a22n82502N32202HC2IA2502602j12AB2OL2772c62C821T2m128Q2HV2J92jb2Jd23c2d827722E21f161N2B021t1721Q2cc2MK2cH28j2ck1624426x2Dw22821r1S1Q1t1T161122I2112An29G2Aq2AS2Au2AW2aY2B02b21225z2oF28q218122iu1l21P2242cp102341h181r1121V21C2D32jY2DF1o2d62e11o1Q2E427p2Db1M1K27P27p2Dg1T2A02eQ2dm2EU2DZ112db142pP2Qy111z1Y27t111G2ja2hm1721621a2Kd1e2c4142f124k24P1S1H21a2RM2f0152gP2qN2f72772FE21a21b2782F12d62QS2s3152Dq27b2F12f12dQ27Z2sF2SC1x1i1I2Sj2Dq27P2sj2D6122dw2eo2dQ2G02EO2SV2KE112752Fs2DQ2i22LX172D61P1J2772Dv2Sw192DV2Dv2dg2l32772g02DG2dg2g51a2tH2782GB2r42FC2fX1p1G2lW2LX2SP2t1142TC1X2I22tf182dL2D22DV2eO2gy21b162dV2S82Qr2E42Sg1Z2qw2SR1b1f29628U2fT2R42FS2sG1x2ei2So1x2ec2uw1N1N2sO1z1E1c2SJ111e1f2s72sk2H92RQ2Sk2F62Sj24K24H2Cp2S02ry2rW27723O24a1S122ei27921B2S627k2Hk27921h21H26326327722m22J2qC2LT2lv1526625B1D2772311C1a1e21M21428W1t1l2iV1924426s2W61z1I2GL22S1c2n321V1Y2A41n1J1V2L52782cZ24i23Y2ta102371m1H2172172Pl28J1521n21I1d111B2Pm1t1d23s2pH2772242112v81s1t2ly23C1n2DW2af1i1M21h2LI1624O2If2772XB1h2P42Rq2B92aU21C21z2bO2Ni29j1H1Z21f1R1D1N2po1122S2ST277239162mr2jo191l2332S22I721D2Bv1725025e2Qc2342Ja2WC26p24b2n32yl29K21N22D2hS22B213161r2LY21D21J1D2Tv25Z2532QC2292101s1a181y2222k222V181b26K23Y2N322X1729V1n1621p2272WX2182eC1t21T24U2Zh27722p18141F1d1R23P28o27722x1Q21821O27b1b2XL23F1h2bO236171r21D2181M2Yz171n21m21f1P1K26H23P2WC2I721r2hG1Q171W2Ci2PE2cn2QC2cR2991D22g21L311R222211311U311W311y2CL25Z2542Cc2iH1821g312c162332yw102nU1q1y2Zu2Zw2Ll3111311321p171H1l25V2q41022R2Gq1d2au25I313221Z2122A421821926K23k2dW2CE2At182YD1b2372kC102Bt1j1S22S1329O21T1y2YS1v1N2aV2IY2692l92Mx2lC1d2lE2LG2102y724O2Oo102iS1r1O22H21E2N32361J1f27m1224x28a2oP2CF2Pc2CJ2cl22721627J1S22K21522x27J2np22n2a72Wd1C2aq24926u2I62zO312Z101l1124j2zb2772382wM2IW25Z2562dw22V122821h141C1u2301c2X9315S2xd2xf1Q2xh2Xj2Xl2xn2pn1d21322G2Og215314n181926W24429o22p2qx1r1S2zR2lg23i2Ny28C21B171A2bc2QH172MM2Mo1822821D2QC2B72b91m25025C2i621Z21H28L1V2XP21322f29O21u2191b1t21r2151T2yD2552652GC1a23D2382i62361N1K14316P1N255314D22f21e2tE23F2Y1316U15192142951R21I22A2gk313a2a428H2822xY191k21z2L827722d2122mr21N2131U1511314U2pe23E318C102La2my2JO2322P02I72I92en313d24j25Q29O2Ln2iN1N21H21e1s24U25g2K222a21f1o26p2Iq2p12P32p5310o23E2252A02j71L17317Y2q52e01b2p422z1I311R22R31161d21m21931401S31361625Z2582BO22R1b2hw2hy1g152p42zv1g1M23M2XS102aF2ST29k2sT24a26q2K221y191p241317b2772Bi1n102lv1724p25f2A022b21I141l22Z1P2n32cR171G1r1Q29C2N3317428L2Xn23I2XM2p121R1R2pP1K1d21l318X1n23c102cC31At1D2uD2Q72JN1o22521N2V9103162161J1M1q313K2I2315n316I2482QC31281d21721923f1e2aN22B21e1O21G29529729921j21j318231b12RK22h2i6310E2LW2G41221d22I2OM2mQ31A92HT2Hv2aH2AW26K2492aN2by28F162F731032jm2812P42B026N2Ns31BI2WS2gl21p312k2552672K22372p425a314R2Cd319p21M312K21n2202uO22r2JD31bt1h21m311G311i311K21L1j2Yq2ys2Pp24Y25j1r2cq2ux171K2M62mM2Z22132161a312Y1821A31e221D21f1J2xN172301S2Nb2Nd22w1q2qC22U171D1V2NL2n22Yb311h1H311d26r31D527722u2E9101t26n24a2i62J72HX2e623231C931B521C28j1A1X312917311v250319J27722S2Jn1c122M5318e21N317j2p11411312k25Z2WB2772262171h131O2m52122181j1p1e1n26n316k2md1i312Y1S2a431dC25i29z31Gk1f28F21821y31Cu2Bi2G01L317G1631942CL26l311q2op2a32112172e6161u2292PN1722c23f2Y2317M1T21Q21q317n21d31hf1022c31Ek2mt213316H26531I81022q2Wc132112232Ez22N2nW31DQ27731622Ja1b1O25g312U2ht2181T1n1Y319P1q2ob31BI21N2eU24W2j52jH2131V315g1N21C2171721c318K27731Cm31CO1F31G9151V1J25p2Cx27926826722423j2Gk31771H1P1921i21C1h1r2NX21S21F2i62bi2bK21I31al24K2Ya31j82bJ1C31ik1624I315k1021T27w2Xc26H31gq277318031DN1M1731l92I62p231Ef1t21S2192N72772NU2nW2Ny2o028K31hY2452lS21d31ig31iI21631jP1022321a1S31f62B922T27X2871922j2Wt1022b21k1a2Av31G91e31cY21G2i91l1i191T1V26O31LU2XA2mr314V2cM2co27722t31bK2pn2oz2I6310831AU122b922921m2BO31621N2gQ2Gl2p42yT1T22h314Y25c21i22U26n24624o2232Sa1028d151o2jD2zR2bB2It2WN11318B2dw2yy2MR1m152I227031GJ2BP1Y1q2yz21N2w531H711311J1i26n310c31jQ315T2p412246311029P21n2xw21F21H31L724S25n31bK31oE1z27p2X11d2xJ1I21n31AL1n21021H102ZQ1B2ic1h24i2Mi2xT21l1k21E21I318P2Ly1k31b32dW2NU2xY1l310W312L29k31Ge1H1S112WC2xM1u31HB1V1L310h1d24l25V31cU2pu2Ar2aT3141316y31P41W22C27923K25F1321F22o2X9311C311e31f731ly31F931FB2yr2YT22i31nv31Hm21N1O31kN1N1X21I31dn31172Cm31lH2Ih31ha1D21R31L531L71423p31B42yC31GN31qD25d2552HS23431Hb29k2P421721K1I1S21J31Kj1022W2d9141d31rm31FD1126E2482E431Ah31ns31AJ21i171o1N1d1531T92Av2zL2HS2nU31911131pv182FK1N25I2na311131h321P2I5310S2bv1t2dV1422H31262yX1r31qt1t31sj1N31sL31SN23a1k2hS2zj1h1w31fX2xN27023v2K222121m21e24w315C277319L2O921m21u2hs22631Rs31rU31UC31GT22921C2A02me1T21p21X2GK22B21O1Q1r1A21J312k24I25m311r21V31t5102MS1q21j2wz182X126h313G31p92jd1H1T1S1025D2Zy28c2N62a423e31U82xT2O62IL2Lo21Y317531vr1J142722492Oc2Bd21n22l2K222T29R21W31Rq2Cd2cf21c1x1M1g161b1a152Z823D31gW2MK31712mp2Mr1b2351L2Cc28d28f31mc2O231Ky2Yb1I2x12BL31qI31qk21n316d31KK31f32AV2332ww31uN2O82Je2jg313331Au31A72m81C26d23X2QC2372m81M1p21C31P231mY21N1131cc24z25d2Og2oi2In21u314Y27821S2672672382p931VR1Q1b31MD31lY21s31w91022e312S1g218310K28Q2N52n72J32Ng2772IS2iu2iw111n31K4102381D2Z21m31ze2381T31032532AD2XA172zQ31QD23a2zc29J31h324z31Lo22b21N2D91R314c2a031742AQ26823m2cC22A2aZ31Em2pD2CL24i25Y2An235141G320l21M21c1121d31ho31MI2po26H240311r21U31Kg31Ww2Wn31UC31FY1Q25i31ar2aE21c1r31tj21p318x181o21121f2Xp26g31oW320031ZH1026C2BG2932B81123e31dc29f2Ap31R32pX2AX2Az2B12991m31e0319U2EP1B2EA23731x731I928f31cz2iw310w21131Z231331H31au141R2122YJ321t31wV31zc31Rw31QC318R26M24C2Gc21324v23N2hS2XB31f821M31152Wc24r320h321o31Oz1m21321J2e02Qh22N23621b2As1826U24e2k22341s1U21Y2OT31e12j82ja2Jc31cI312n238316o31zr31Oj24631UM1022I21h2q71B1C29X31Jw31cW2mS1O1523431EQ1A1n26r23p1o27722B21m142NW1D1l2YT21O21f31TA1S1621R2O62ak21924J25k31cu23B2wK31F521o2F71P31af31N41M319i2m22xk1721K2AG27k25Y31vy322g322I22z31m72aO31lx1721321k122CP22U313u31Bi2LU1f2WL31na1v24c31GD10232314g31RU23N31B422U31sW2YT22s313O22d1H2HC22h323Q313W31q02962xx1B21C29n2MD31hR2m62m82eN2ZX2w621D315w1u25031Q6322G1J1i1R1r31Ng2O222q2an316231qp31Qr2kr31Qu31qw2jO25N325n326K2hc22n23F21v2CC23131t31f1v1u327A1t26Z2B5324m31L531Bk1B215319P24u31BP315l2hG1g22921h2e02Jx27j1221431YJ2Kq24Z24q27F27P2Es1021921927B2dg22531r92r52dg22622F2772752DG29J2SB2DG26025d2772EO2DG21221R2fR2T71b21E2F4102TG1b22X2342tJ2g11B24523W2Tn2dG31592772fc2dg24723y2L01C2dG24v25227727z2DG1d1k2772RO2dg2aR2772f62Dg25V25m277320l2Dg24123S2772812dG24N25A2Df2sm1B21z22m2772J92dG23V2422771k1K2DG22222b2772i22Dg25x25o27729W2dG25T25k2772V02dg329Q2771O2Qo1B22A2232772l22dG25724I2771Q1Q2DG22Z236277327b2dg24p24W2771s1s2gj2772pN2dg25A24N2771u32801B24r24y2771V1V2DG1631Kc101W1w2DG22C2252Dp2Sl1b21p2d2101Y1Y2dg23O24D2771Z2wS1b24923K2772102102Dg26625J2772112112dg23J22U2772122122dg22u23j2772132132DG2162et10318g2dG2392302772152152dg24323u2772162162dg25424H2772xE2DG25524g2772182182DG25L25S277328v2DG24223V2772Rw2dG21b21i2772Vu2Dg24m25b27721c21c2dg24O24X27721d21d2dg22022927721E21e2Dg23223B27721F21f2Dg23X24427721G21G2GR32G6328X1B22n21y2K92Dg23r24E3295142DG24s25132991B21D214329d162dG23y247329I2Dg21s22H2tb182dG21j2rx2TK1B22I21v329X1B1v2N332a11B25324u32a52dG22r23E32aa1D2dg24k25932Af1e2dg25m25V32Aj1F2DG25f26232AO1G2DG22722e32at1h2dG26425h32aY2DG21c21532B332791B21Q2K61032b92DG21m1Z32Be31N81B21T22g32Bj1m2dg1x21K32bO1n2dG26525G32bs32bu24b23M32BY325B1b23p24c32C332c51B26225f32c91r2dG23W24532CE32cG1b25824L32Ci1t2dG25u25N32Cn32Cp21n2RE1032Cu2DG23123827732D02DG23G31mS102dQ2dg21V22i27732Db2dg24W24P32Dg32DI22f22632Dm32Do1B23U24332Ds32Du2DH29o32DZ2dG22822132E432E631jT2Gc32Eb1B2QF32EF32Eh2um2uO32EM2Dg11324L1032ES1B21x22k32eW32ey1b24l25832F22192dg25S25l32F721A2dG25R25y32FC21b2DG24c23P32fH32fj1b32bM32fN32fP1B26725i32fT32fV31ys28T1032g02Dg22b22232G532g72Eu1232G9122dg23522W32ge1b25n25u32GI2DG24823l32GN21921g32GR2DG2Gz32gw1b22322A32H02Dg23I22V329S2Dg24u25332H921y22N32a02ND1b21421d32HH1b2102lf1032Ab1b1z21M32hq2DG21W22L32Hv2Dg171U32i02dG23b23232i52tM2ti2sM2DG22p31Cj31Bl32if24A23n32b832bA1b21a21J32iO2dg22e22732IT2tp32IY2DG1Q2K232Bt2DG23k24932j72DG22j21u32jC2dG24T25032JH2DG24623Z32JM2Dg23m24B32jr2dg23823132JW2Dg25C26132Ct32cv1b24423x32K532D11B22K21X32D52DG24i25732Kf32dC1B24F23q32KK2dG21U22J32kO2DG25624j32KT2DG22122832dy32e01B23L24832l12Dg25P25w27732l528X32L82dg2ks32el32En1B22l21W32Er2172Dg31HX32lL2dG24D23O32lq2dg22422D32lV2dG1Y31k61032fd1b23e22R32m52Dg2nD32M92Dg25024T32mE2Dg21121o32FZ32G11B22w23532MN2E0121332mr2Dg25K25t32Mw25q25Z32n01B23Z24632Gn24023T32n71B21h21832Na2152Qk329n32h11B23431531032h524X31kt2GI32nq32NP2Dg22V2L52gp2DG131q32Hl2dg1N2Bo32AG1B25124S32O71b22M21z32oB1B26325E32oF1b21L1w32Ia1B21831PZ32om2dg23D22o32Oq2Dg22Y23732Ov1B22S23H32OZ1B32fl32p11b23t24032j32DG25y25r32P91b23H22S32Pd1B23f22q32pH1B22g21T32pL1B23323a32pP1B22T23g32Pt1b24q24z32Px2dG24G25532Q22DG23a23332q71B22922032QB2dg25924K32QG31aU2e432Dn2dG24h25432qO313M22y32Qs2dG21f31Yj32e52DG24y24R32r12142Dg23N24A32R41B21G21932R72DG25B24M32RC2DG22h21s32RG1b25d26032rk1b22D22432Ro1b22o23D32M02dG1A2x932FI2dg23q24f32S01b25O25x32s41b23S24132S82dg1j2CC32G62E0151432SH1B25224v2K92e02rQ2ec2dK316H2782ec2R02a02Ew21B2rM2sQ1532YB32Gr23n24c26x26e32gI25Z32SN2971O1z32id32t22Dq2812u51132ye2r532H523C22p329x1o25r32i92k72d621932Ii2gP2Dq32dH2Gp32TH317n2A027Z111y32IN27B2ro2u7102RO2gp31yb1m31ha1232ZT2132122tq32nQ26125C32a5111i1V2wF2eI1a2Jn2d92Gw1823N25226a32yq27526F2Nn2D632yT32Gi2dq32cF27532yd2rm2UY32yh1B2172KY2fP2kV2EO32961o21z32d4102752dQ21L274330S24K25422v23F1d31nz27526N26n2Qn24d32GV331732Gj1B2302392SB2V731Cu331P32YI331x1b24E23r32gN2r132Yj24c1t2dZ331p26U26u331m331o2fx2s52782tG331433162tC1Z2122102U532q832qA31CK330B2r4330e2sH1d2u52dQ25p25P332x1z234236332o1b21i2VV2g632z02fS2Gb2KV2tt330F25225f332b331p132e632Yr331N32sO21O211331U2v82783313333n331p31p42N3331p2k42K6331H32y4142TE2E02d62aa32Gi328L2MN333r331W275131728y2Gc32yr3315330P1X331a330S142rS23A23F27v33431G2Aw333m331o32961B21R33002ry331V333T32gj332I330p332L210334O332p32Gr32ZQ331214332v334O2Dq256256335I3332236335b1b25Z25q335D2GN32Na2bu32H0330C32T2333u334y331Q23622Z334C33552d6334k331p2Db332M335P32GL335d2R4335f2DQ318g335m21o21q334O328l2142fG2pp3311162eW2Gn27p32961925132hG331X1O24K336z275334032mI21e334321921833461O333V2eW332f32n01o3348331p328L2152k22FE333s32gI334f21B216334i112VX278"),(#N-(90));local function n(l,e,...)if(l==523153379)then return((o(o(o(e,59397),311438),184292))-883590);elseif(l==257046686)then return(o(o((e)-392608,600519),58374));elseif(l==591230714)then return(o((o(e,328071))-304533,230118));elseif(l==585817307)then return((o(o(e,74084),108941))-358663);elseif(l==722648322)then return(o((o((e)-620560,331706))-146981,373673));elseif(l==175710408)then return(o(((o(e,529178))-298016)-799427,338609));elseif(l==619718087)then return(((o(o(e,854426),197075))-609533)-546285);elseif(l==237065553)then return((o(o(e,19835),485088))-473265);elseif(l==22492155)then return(o(o(o(o(e,426668),542049),427623),262798));else end;end;if _ENV then _ENV._ENV=_ENV end;local d=e.Iuc3no;local n=e[(5257261)];local a=e[((171434987-#("how do i transplie lua INTO BRAINFUCK PLEASE I NEED HELP")))];local i=e[(274925807)];local f=e['ExwzQNTWYF'];local m=e[(775098216)];local E=e[(425534197)];local g=e[((324246447-#("Slowmode is enabled. Members can only send one message every lifetime.")))];local function t()local a,e,t,i=x(h,c,c+i);a=o(a,l);l=a%n;e=o(e,l);l=e%n;t=o(t,l);l=t%n;i=o(i,l);l=i%n;c+=m;return((i*f)+(t*d)+(e*n)+a);end;local function d()local e=o(x(h,c,c),l);l=e%n;c=(c+a);return(e);end;local function f(n,e,l)if(l)then local e=(n/E^(e-a))%E^((l-a)-(e-a)+a);return(e-(e%a));else local e=E^(e-a);return(((n%(e+e)>=e)and(a))or(g));end;end;local function i()local a,e=x(h,c,c+E);a=o(a,l);l=a%n;e=o(e,l);l=e%n;c=c+E;return((e*n)+a);end;local p="\35";local function B(...)return({...}),P(p,...);end;local function v(...)local A=e[((#{}+46966854))];local m=e['smM3ZFhie'];local v=e[(255532463)];local C=e[((342742298-#("im farting")))];local E=e[((471661172-#("grabify.link")))];local F=e['R4P8bOHfXI'];local a=e[((#{}+324246377))];local k=e[(5257261)];local M=e[(979988771)];local P=e[((116736821-#("My tips sticky rn my tip my tips creaming I am playing with a Lil bit ohoho")))];local _=e[(575003298)];local b=e[((425534220-#("Powered By Femboy Magic")))];local N=e[(147630667)];local T=e['cj6U0b'];local z=e[(823622598)];local r=e[(653381838)];local W=e[(772661812)];local U=e[(566877160)];local g=e[(775098216)];local S=e["avlYS3d5"];local n=e[((#{}+171434931))];local w=e[(274925807)];local function p(...)local e=({});local s=({});local B=({});local O=d(l);for e=a,t(l)-n,n do B[e]=p();end;local p=i(l);for i=a,t(l)-n,n do local s=d(l);if(s%r==w)then local l=d(l);e[i]=(l~=a);elseif(s%r==g)then while(true)do local l=t(l);e[i]=u(h,c,c+l-n);c=c+l;break;end;elseif(s%r==z)then while(true)do local t=t(l);if(t==a)then e[i]=('');break;end;if(t>S)then local a,r=(''),(u(h,c,c+t-n));c=c+t;for e=n,#r,n do local e=o(x(u(r,e,e)),l);l=e%k;a=a..D[e];end;e[i]=a;else local n,a=(''),({x(h,c,c+t-n)});c=c+t;for a,e in I(a)do local e=o(e,l);l=e%k;n=n..D[e];end;e[i]=n;end;break;end;elseif(s%r==a)then while(true)do local o=t(l);local l=t(l);local t=n;local c=(f(l,n,U)*(b^E))+o;local o=f(l,r,T);local l=((-n)^f(l,E));if(o==a)then if(c==a)then e[i]=y(l*a);break;else o=n;t=a;end;elseif(o==W)then e[i]=(c==a)and(l*(n/a))or(l*(a/a));break;end;local l=H(l,o-P)*(t+(c/(b^_)));e[i]=l%n==a and y(l)or l break;end;else e[i]=nil end;end;local o=t(l);for e=a,o-n,n do s[e]=({});end;for k=a,o-n,n do local o=d(l);if(o~=a)then o=o-n;local r,E,u,D,c,x=a,a,a,a,a,a;local h=f(o,n,w);if(h==m)then x=(d(l));u=(i(l));c=(t(l));r=(i(l));E=({});for e=n,u,n do E[e]=({[a]=d(l),[n]=i(l)});end;elseif(h==F)then elseif(h==w)then x=(d(l));u=(i(l));c=s[(t(l))];r=(i(l));elseif(h==b)then x=(d(l));c=s[(t(l))];r=(i(l));elseif(h==n)then x=(d(l));c=(t(l));r=(i(l));elseif(h==a)then x=(d(l));u=(i(l));c=(i(l));r=(i(l));end;if(f(o,g,g)==n)then r=e[r];end;if(f(o,C,C)==n)then D=s[t(l)];else D=s[k+n];end;if(f(o,m,m)==n)then c=e[c];end;if(f(o,F,F)==n)then u=e[u];end;if(f(o,A,A)==n)then E=({});for e=n,d(),n do E[e]=t();end;end;local e=s[k];e[-38310.13306865056]=x;e['MMh']=u;e[v]=r;e["X52ykv"]=D;e['nXPHHUx']=E;e[-M]=c;end;end;return({["HRFBZeQ94"]=a;[N]=e;["ts3R"]=O;["VJbWbV9W"]=p;["ag6DfM0j"]=s;['byvW']=B;});end;return(p(...));end;local function E(e,l,d,...)local c=e["ts3R"];local n=e["ag6DfM0j"];local m=e["byvW"];local l=0;local i=e["VJbWbV9W"];local g=d['\120\112\99\97\108\108'];local e=e[419837];return(function(...)local F=-38310.13306865056;local t='MMh';local e=(true);local h=(P(p,...)-1);local f=n[l];local a=-716858;local e=(525332970);local u=-(1);local o='X52ykv';local l={};local D={...};local e=({});local n=732141;local e="nXPHHUx";local x={};local e=g and 1 or 0;for e=0,h,e do if(e>=c)then x[e-c]=D[e+1];else l[e]=D[e+1];end;end;local h=h-c+1;repeat local e=f;local c=e[F];f=e[o];if(c<=26)then if(c<=12)then if(c<=5)then if(c<=2)then if(c<=0)then l[e[n]]=l[e[a]][e[t]];elseif(c==1)then local n=e[n];local a=e[a];local o=50*(e[t]-1);local c=l[n];local e=0;for a=n+1,a do c[o+e+1]=l[n+(a-n)];e=e+1;end;elseif(c<=2)then local o=e[n];local n=l[e[a]];l[o+1]=n;l[o]=n[e[t]];end;elseif(c<=3)then l[e[n]]=d[e[a]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=d[e[a]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=d[e[a]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];local c=e[n];l[c]=l[c](r(l,c+1,e[a]));for e=c+1,i do l[e]=nil;end;e=e[o];l[e[n]]=l[e[a]]+l[e[t]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];local c=e[n];l[c]=l[c](r(l,c+1,e[a]));for e=c+1,i do l[e]=nil;end;e=e[o];l[e[n]][e[a]]=l[e[t]];e=e[o];l[e[n]]=d[e[a]];e=e[o];local d=e[n];local c=l[e[a]];l[d+1]=c;l[d]=c[e[t]];e=e[o];l[e[n]]=e[a];e=e[o];local c=e[n];l[c]=l[c](r(l,c+1,e[a]));for e=c+1,i do l[e]=nil;end;e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];local c=e[n];local r=l[e[a]];l[c+1]=r;l[c]=r[e[t]];e=e[o];local c=e[n];l[c](l[1+c]);for e=c,i do l[e]=nil;end;e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];e=e[o];elseif(c==4)then f=e[a];elseif(c<=5)then if(l[e[n]]>e[t])then f=e[a];end;end;elseif(c<=8)then if(c<=6)then local e=e[n];l[e]=l[e]();elseif(c==7)then local n=e[n];l[n](r(l,n+1,e[a]));for e=n+1,i do l[e]=nil;end;elseif(c<=8)then l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];e=e[o];end;elseif(c<=10)then if(c==9)then l[e[n]]=s(256);elseif(c<=10)then l[e[n]]=d[e[a]];end;elseif(c==11)then local n=e[n];u=n+h-1;for e=0,h do l[n+e]=x[e];end;for e=u+1,i do l[e]=nil;end;elseif(c<=12)then local n=e[n];l[n](r(l,n+1,e[a]));for e=n+1,i do l[e]=nil;end;e=e[o];e=e[o];end;elseif(c<=19)then if(c<=15)then if(c<=13)then if(l[e[n]]~=e[t])then f=e[a];end;elseif(c==14)then local e=e[n];do return r(l,e,u);end;elseif(c<=15)then local e=e[n];l[e](l[1+e]);for e=e,i do l[e]=nil;end;end;elseif(c<=17)then if(c==16)then elseif(c<=17)then local n=e[n];local a={l[n](r(l,n+1,u));};local o=e[t];local e=0;for n=n,o do e=e+1;l[n]=a[e];end;for e=o+1,i do l[e]=nil;end;end;elseif(c==18)then l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];local d=e[n];local c=l[e[a]];l[d+1]=c;l[d]=c[e[t]];e=e[o];l[e[n]]=e[a];e=e[o];local n=e[n];l[n](r(l,n+1,e[a]));for e=n+1,i do l[e]=nil;end;e=e[o];e=e[o];elseif(c<=19)then local a=e[a];local o=l[a];for e=a+1,e[t]do o=o..l[e];end;l[e[n]]=o;end;elseif(c<=22)then if(c<=20)then l[e[n]]=s(e[a]);e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];e=e[o];elseif(c==21)then l[e[n]]=(e[a]~=0);elseif(c<=22)then l[e[n]]=l[e[a]];e=e[o];l[e[n]]=e[a];e=e[o];local c=e[n];l[c](r(l,c+1,e[a]));for e=c+1,i do l[e]=nil;end;e=e[o];l[e[n]]=d[e[a]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];e=e[o];end;elseif(c<=24)then if(c==23)then l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];e=e[o];elseif(c<=24)then l[e[n]]=l[e[a]]+l[e[t]];end;elseif(c==25)then l[e[n]]=e[a];elseif(c<=26)then l[e[n]]=l[e[a]][l[e[t]]];end;elseif(c<=40)then if(c<=33)then if(c<=29)then if(c<=27)then d[e[a]]=l[e[n]];elseif(c==28)then if(l[e[n]]==e[t])then f=e[a];end;elseif(c<=29)then l[e[n]]=l[e[a]];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=d[e[a]];e=e[o];l[e[n]]=d[e[a]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=#l[e[a]];e=e[o];local c=e[n];l[c]=l[c](r(l,c+1,e[a]));for e=c+1,i do l[e]=nil;end;e=e[o];l[e[n]]=l[e[a]][l[e[t]]];e=e[o];local c=e[n];l[c]=l[c](l[c+1]);for e=c+1,i do l[e]=nil;end;e=e[o];l[e[n]]=e[a];e=e[o];local d=e[a];local c=l[d];for e=d+1,e[t]do c=c..l[e];end;l[e[n]]=c;e=e[o];local n=e[n];l[n](r(l,n+1,e[a]));for e=n+1,i do l[e]=nil;end;e=e[o];e=e[o];end;elseif(c<=31)then if(c>30)then local n=e[n];l[n]=0+(l[n]);l[n+1]=0+(l[n+1]);l[n+2]=0+(l[n+2]);local o=l[n];local c=l[n+2];if(c>0)then if(o>l[n+1])then f=e[a];else l[n+3]=o;end;elseif(o<l[n+1])then f=e[a];else l[n+3]=o;end;elseif(c<31)then local n=e[n];local c=e[t];local o=n+2;local n=({l[n](l[n+1],l[o]);});for e=1,c do l[o+e]=n[e];end;local n=n[1];if(n)then l[o]=n;f=e[a];end;end;elseif(c>32)then l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];e=e[o];elseif(c<33)then l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];e=e[o];end;elseif(c<=36)then if(c<=34)then local e=e[n];local o,n=B(l[e](l[e+1]));u=n+e-1;local n=0;for e=e,u do n=n+1;l[e]=o[n];end;elseif(c==35)then l[e[n]]=#l[e[a]];elseif(c<=36)then local n=e[n];l[n]=l[n](r(l,n+1,e[a]));for e=n+1,i do l[e]=nil;end;end;elseif(c<=38)then if(c==37)then l[e[n]]=d[e[a]];e=e[o];local d=e[n];local c=l[e[a]];l[d+1]=c;l[d]=c[e[t]];e=e[o];l[e[n]]=e[a];e=e[o];local c=e[n];l[c]=l[c](r(l,c+1,e[a]));for e=c+1,i do l[e]=nil;end;e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];local d=e[n];local c=l[e[a]];l[d+1]=c;l[d]=c[e[t]];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=l[e[a]];e=e[o];local n=e[n];l[n](r(l,n+1,e[a]));for e=n+1,i do l[e]=nil;end;e=e[o];e=e[o];elseif(c<=38)then local e=e[n];l[e]=l[e](l[e+1]);for e=e+1,i do l[e]=nil;end;end;elseif(c>39)then l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];e=e[o];elseif(c<40)then if(not(l[e[n]]))then f=e[a];end;end;elseif(c<=47)then if(c<=43)then if(c<=41)then l[e[n]][e[a]]=l[e[t]];elseif(c==42)then l[e[n]]=E(m[e[a]],(nil),d);elseif(c<=43)then l[e[n]][e[a]]=e[t];end;elseif(c<=45)then if(c>44)then l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];e=e[o];elseif(c<45)then e=e[o];local a=e[n];u=a+h-1;for e=0,h do l[a+e]=x[e];end;for e=u+1,i do l[e]=nil;end;e=e[o];local n=e[n];do return r(l,n,u);end;e=e[o];e=e[o];end;elseif(c==46)then l[e[n]]=l[e[a]];elseif(c<=47)then l[e[n]]();end;elseif(c<=50)then if(c<=48)then local c=e[n];l[c](l[1+c]);for e=c,i do l[e]=nil;end;e=e[o];l[e[n]]=d[e[a]];e=e[o];local c=e[n];local f=l[e[a]];l[c+1]=f;l[c]=f[e[t]];e=e[o];l[e[n]]=e[a];e=e[o];local c=e[n];l[c]=l[c](r(l,c+1,e[a]));for e=c+1,i do l[e]=nil;end;e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];local f=e[n];local c=l[e[a]];l[f+1]=c;l[f]=c[e[t]];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=(e[a]~=0);e=e[o];l[e[n]]=e[a];e=e[o];local c=e[n];l[c](r(l,c+1,e[a]));for e=c+1,i do l[e]=nil;end;e=e[o];l[e[n]]=d[e[a]];e=e[o];l[e[n]]=e[a];e=e[o];local c=e[n];l[c](l[1+c]);for e=c,i do l[e]=nil;end;e=e[o];l[e[n]]=d[e[a]];e=e[o];local d=e[n];local c=l[e[a]];l[d+1]=c;l[d]=c[e[t]];e=e[o];l[e[n]]=e[a];e=e[o];local c=e[n];l[c]=l[c](r(l,c+1,e[a]));for e=c+1,i do l[e]=nil;end;e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];local c=e[n];local n=l[e[a]];l[c+1]=n;l[c]=n[e[t]];e=e[o];e=e[o];elseif(c==49)then l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=e[a];e=e[o];e=e[o];elseif(c<=50)then do return;end;end;elseif(c<=52)then if(c==51)then l[e[n]]=s(e[a]);elseif(c<=52)then e=e[o];l[e[n]]=d[e[a]];e=e[o];l[e[n]]=d[e[a]];e=e[o];local d=e[n];local c=l[e[a]];l[d+1]=c;l[d]=c[e[t]];e=e[o];l[e[n]]=e[a];e=e[o];local c=e[n];l[c]=l[c](r(l,c+1,e[a]));for e=c+1,i do l[e]=nil;end;e=e[o];local c=e[n];local a=l[e[a]];l[c+1]=a;l[c]=a[e[t]];e=e[o];local a=e[n];local d,c=B(l[a](l[a+1]));u=c+a-1;local c=0;for e=a,u do c=c+1;l[e]=d[c];end;e=e[o];local a=e[n];local r={l[a](r(l,a+1,u));};local c=e[t];local n=0;for e=a,c do n=n+1;l[e]=r[n];end;for e=c+1,i do l[e]=nil;end;e=e[o];e=e[o];end;elseif(c==53)then local n=e[n];local c=l[n+2];local o=l[n]+c;l[n]=o;if(c>0)then if(o<=l[n+1])then f=e[a];l[n+3]=o;end;elseif(o>=l[n+1])then f=e[a];l[n+3]=o;end;elseif(c<=54)then e=e[o];l[e[n]]=d[e[a]];e=e[o];local c=e[n];local d=l[e[a]];l[c+1]=d;l[c]=d[e[t]];e=e[o];l[e[n]]=e[a];e=e[o];local c=e[n];l[c]=l[c](r(l,c+1,e[a]));for e=c+1,i do l[e]=nil;end;e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];l[e[n]]=l[e[a]][e[t]];e=e[o];local c=e[n];local i=l[e[a]];l[c+1]=i;l[c]=i[e[t]];e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=s(256);e=e[o];l[e[n]][e[a]]=e[t];e=e[o];l[e[n]][e[a]]=e[t];e=e[o];l[e[n]]=s(e[a]);e=e[o];l[e[n]]=s(256);e=e[o];l[e[n]][e[a]]=e[t];e=e[o];l[e[n]][e[a]]=e[t];e=e[o];l[e[n]]=s(256);e=e[o];l[e[n]][e[a]]=e[t];e=e[o];l[e[n]][e[a]]=e[t];e=e[o];l[e[n]]=s(256);e=e[o];l[e[n]]=s(e[a]);e=e[o];l[e[n]]=s(e[a]);e=e[o];l[e[n]]=e[a];e=e[o];l[e[n]]=(e[a]~=0);e=e[o];e=e[o];end;until false end);end;return E(v(),{},M())(...);end)(({[(935364947)]=(((#{578;88;643;}+426)));[(46966854)]=((7));[(105863919)]=("\107");Dn5S7z0w6=((584874978));[(344946016)]=("\120");[((#{401;}+576126934))]=("\111");[((#{492;928;881;(function(...)return 544,12,...;end)(576,943)}+908680556))]=((696));NWWZoBF2v=((537793561));[((324246405-#("Lua compiler in Lua lets goo")))]=(((#{844;359;813;(function(...)return 134,85,...;end)(761,270,601)}-8)));[((#{80;277;628;334;}+879112053))]=("\110");["gkJ7Eguw0c"]=("\114");['moEdmc3n']=("\50");[(342742288)]=((8));r7UEury1e=(((879112061-#("Skid"))));[((255532512-#("Hey, i won the giveaway. Could i redeem my prize?")))]=(((#{611;486;279;(function(...)return 199,734,14,713,...;end)()}+732134)));[((881711869-#("Pratham#6969 Was Here!")))]=(((#{425;799;(function(...)return 919,858;end)()}+32)));[((566877179-#("get rickrolled nerd")))]=((20));[((#{679;298;327;870;(function(...)return 878,41;end)()}+471661154))]=((32));[(334096833)]=((344946016));[((#{740;956;784;47;(function(...)return 405;end)()}+194487692))]=("\51");gi0AGeuESN=(((#{222;149;462;(function(...)return 132,976,726;end)()}+245)));[(83250694)]=("\98");[((492921416-#("Federal spammed me the n word")))]=(((174-#("nele.exe wa here"))));[((#{268;}+418165415))]=("\41");[((371099144-#("iPhone 46 Pro Ultra Extreme Diamond Platinum Max Supersized Plus")))]=((248));[(261510661)]=("\109");cj6U0b=((31));['ExwzQNTWYF']=((16777216));['R4P8bOHfXI']=(((#{930;887;}+4)));[(584874978)]=("\112");[((#{320;410;891;760;(function(...)return 467,883;end)()}+380960045))]=("\103");[(418823264)]=("\115");[(932183519)]=(((#{}+597267207)));[(288342149)]=(((226-#("Sowd Hub is bad"))));od6JcFQh=((110));[(425534197)]=(((#{656;668;336;(function(...)return 133;end)()}-2)));['smM3ZFhie']=((5));[((#{556;(function(...)return;end)()}+676044535))]=("\97");[((#{285;533;(function(...)return 650,666,76,870;end)()}+436683386))]=((36575));[(597267207)]=("\102");[((#{100;487;(function(...)return 496,293,750,61;end)()}+986912644))]=(((418823280-#("shlex is so sexy"))));YH75uQ5z=("\100");['uC7a2qgW0']=(((342-#("Ruqen likes men (he likes men)"))));[((653381860-#("Jack off to furry porn")))]=((21));[(537793561)]=("\117");[(21034806)]=((810));["avlYS3d5"]=(((5003-#("sus"))));[(622330646)]=("\101");[((418280634-#("Hacking into the mainframe")))]=((225));[((#{74;}+856005377))]=((83250694));[(371046078)]=(((151028847-#("Sowd Hub is bad"))));[(560020326)]=(((676044596-#("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"))));[((214901416-#("its also strawberries*")))]=((72));[(151028832)]=("\121");[(297767321)]=(((418165429-#("rip qoto x :("))));[(496382314)]=((622330646));[(849251731)]=(((29885-#("Perth using moonsec instead of psu XD"))));[(896605379)]=((105863919));[(274925807)]=((3));[(518828973)]=((134485688));["Iuc3no"]=((65536));[((772661875-#("Turd ss is always on top, not your shitty ss what have no games")))]=(((2065-#("icepools is hiring"))));[(147630667)]=(((#{356;795;(function(...)return 209;end)()}+419834)));[(775098216)]=((4));[(449124288)]=(((113-#("Elysium owns me and all"))));[((#{(function(...)return 776;end)()}+991970753))]=((165));[(575003298)]=(((63-#("There we go"))));[((928366428-#("never gonna let you down")))]=(((#{(function(...)return 541;end)()}+576126934)));['lMky7QCVo']=((469652996));[((134485716-#("Lua compiler in Lua lets goo")))]=("\40");[((#{570;206;883;(function(...)return 232,854,471,257;end)()}+809587835))]=("\99");[(111601907)]=(((#{407;95;}+380960049)));[(979988771)]=(((#{496;568;821;(function(...)return 224,153,578,259;end)()}+716851)));[((#{622;713;160;681;}+823622594))]=((10));[((#{445;(function(...)return 652;end)()}+685321123))]=(((#{}+10218)));[(718401212)]=("\43");[((947324823-#("toni base")))]=((809587842));[((183319033-#("Pratham#6969 Was Here!")))]=(((194487729-#("Rape cumfuck sex cum fuck molest"))));[((49318247-#("among us musical is the greatest thign everv")))]=(((#{729;288;567;}+718401209)));[(975377864)]=((348));['T3aO3f5kY']=("\58");[((225694549-#("skilled issue")))]=((855));["tRCH4"]=(((#{132;126;151;}+842926349)));[((469653017-#("Absolute penis slayer")))]=("\104");[(116765941)]=("\105");[(842926352)]=("\116");[((#{333;275;501;}+116736743))]=((1023));[((#{}+951921992))]=((17609));[((682048930-#("when will perth fall down stairs")))]=((220));[(146853186)]=((866));["CIUL0OzQ"]=((29135));[((5257297-#("Hehe you can try to read this but...")))]=(((277-#("Absolute penis slayer"))));[((#{709;637;799;166;}+171434927))]=(((20-#("Man make it 6 hours"))));xzksO=("\108");[(163989630)]=((116765941));[((728131381-#("I am staying winning")))]=((261510661));[(374125426)]=(((1721-#("There we go"))));}),...)})do return e end;
+
+
+
+--DESTROY GUI----THANK YOU 10X FOR THIS 
+function removegui()
+    if game:service'CoreGui':FindFirstChild("Library") then game:service'CoreGui':FindFirstChild("Library"):Destroy()
+   end;
+end;
+
+removegui()
+
+--INBUILT ANTI AFK 
+local VirtualUser=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+warn("anti-afk")
+VirtualUser:CaptureController()
+VirtualUser:ClickButton2(Vector2.new())
+end)
+
+local Lib = {RainbowColorValue = 0, HueSelectionPosition = 0}
+local Accent = Color3.fromRGB(138, 80, 255)
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local RunService = game:GetService("RunService")
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local Mouse = LocalPlayer:GetMouse()
+
+coroutine.wrap(
+    function()
+        while wait() do
+            Lib.RainbowColorValue = Lib.RainbowColorValue + 1 / 255
+            Lib.HueSelectionPosition = Lib.HueSelectionPosition + 1
+
+            if Lib.RainbowColorValue >= 1 then
+                Lib.RainbowColorValue = 0
+            end
+
+            if Lib.HueSelectionPosition == 80 then
+                Lib.HueSelectionPosition = 0
+            end
+        end
+    end
+)()
+
+function Ripple(obj)
+    spawn(
+        function()
+            local Mouse = game.Players.LocalPlayer:GetMouse()
+            local Circle = Instance.new("ImageLabel")
+            Circle.Name = "Circle"
+            Circle.Parent = obj
+            Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Circle.BackgroundTransparency = 1.000
+            Circle.ZIndex = 10
+            Circle.Image = "rbxassetid://266543268"
+            Circle.ImageColor3 = Color3.fromRGB(211, 211, 211)
+            Circle.ImageTransparency = 0.6
+            local NewX, NewY = Mouse.X - Circle.AbsolutePosition.X, Mouse.Y - Circle.AbsolutePosition.Y
+            Circle.Position = UDim2.new(0, NewX, 0, NewY)
+            local Size = 0
+            if obj.AbsoluteSize.X > obj.AbsoluteSize.Y then
+                Size = obj.AbsoluteSize.X * 1
+            elseif obj.AbsoluteSize.X < obj.AbsoluteSize.Y then
+                Size = obj.AbsoluteSize.Y * 1
+            elseif obj.AbsoluteSize.X == obj.AbsoluteSize.Y then
+                Size = obj.AbsoluteSize.X * 1
+            end
+            Circle:TweenSizeAndPosition(
+                UDim2.new(0, Size, 0, Size),
+                UDim2.new(0.5, -Size / 2, 0.5, -Size / 2),
+                "Out",
+                "Quad",
+                0.2,
+                false
+            )
+            for i = 1, 15 do
+                Circle.ImageTransparency = Circle.ImageTransparency + 0.05
+                wait()
+            end
+            Circle:Destroy()
+        end
+    )
+end
+
+local function MakeDraggable(topbarobject, object)
+    local Dragging = nil
+    local DragInput = nil
+    local DragStart = nil
+    local StartPosition = nil
+
+    local function Update(input)
+        local Delta = input.Position - DragStart
+        local pos =
+            UDim2.new(
+            StartPosition.X.Scale,
+            StartPosition.X.Offset + Delta.X,
+            StartPosition.Y.Scale,
+            StartPosition.Y.Offset + Delta.Y
+        )
+        local Tween = TweenService:Create(object, TweenInfo.new(0.2), {Position = pos})
+        Tween:Play()
+    end
+
+    topbarobject.InputBegan:Connect(
+        function(input)
+            if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+                Dragging = true
+                DragStart = input.Position
+                StartPosition = object.Position
+
+                input.Changed:Connect(
+                    function()
+                        if input.UserInputState == Enum.UserInputState.End then
+                            Dragging = false
+                        end
+                    end
+                )
+            end
+        end
+    )
+
+    topbarobject.InputChanged:Connect(
+        function(input)
+            if
+                input.UserInputType == Enum.UserInputType.MouseMovement or
+                    input.UserInputType == Enum.UserInputType.Touch
+             then
+                DragInput = input
+            end
+        end
+    )
+
+    UserInputService.InputChanged:Connect(
+        function(input)
+            if input == DragInput and Dragging then
+                Update(input)
+            end
+        end
+    )
+end
+
+function Lib:Window(text, accent)
+    local FirstTab = false
+    Accent = accent
+    local Library = Instance.new("ScreenGui")
+    local MainFrame = Instance.new("Frame")
+    local MainCorner = Instance.new("UICorner")
+    local GlowMain = Instance.new("ImageLabel")
+    local LeftFrame = Instance.new("Frame")
+    local Title = Instance.new("TextLabel")
+    local Line = Instance.new("Frame")
+    local LineCorner = Instance.new("UICorner")
+    local TabFrame = Instance.new("Frame")
+    local TabList = Instance.new("UIListLayout")
+    local ContainersFolder = Instance.new("Folder")
+    local DraggableFrame = Instance.new("Frame")
+
+    Library.Name = "Library"
+    Library.Parent = game.CoreGui
+    Library.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+    MainFrame.Name = "MainFrame"
+    MainFrame.Parent = Library
+    MainFrame.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+    MainFrame.Position = UDim2.new(0.330208331, 0, 0.304824561, 0)
+    MainFrame.Size = UDim2.new(0, 652, 0, 355)
+
+    MainCorner.CornerRadius = UDim.new(0, 9)
+    MainCorner.Name = "MainCorner"
+    MainCorner.Parent = MainFrame
+
+    GlowMain.Name = "GlowMain"
+    GlowMain.Parent = MainFrame
+    GlowMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    GlowMain.BackgroundTransparency = 1.000
+    GlowMain.BorderSizePixel = 0
+    GlowMain.Position = UDim2.new(0, -15, 0, -15)
+    GlowMain.Size = UDim2.new(1, 30, 1, 30)
+    GlowMain.ZIndex = 0
+    GlowMain.Image = "rbxassetid://4996891970"
+    GlowMain.ImageColor3 = Color3.fromRGB(15, 15, 15)
+    GlowMain.ScaleType = Enum.ScaleType.Slice
+    GlowMain.SliceCenter = Rect.new(20, 20, 280, 280)
+
+    LeftFrame.Name = "LeftFrame"
+    LeftFrame.Parent = MainFrame
+    LeftFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    LeftFrame.BackgroundTransparency = 1.000
+    LeftFrame.Position = UDim2.new(0.0230061356, 0, 0.0366197191, 0)
+    LeftFrame.Size = UDim2.new(0, 139, 0, 328)
+
+    Title.Name = "Title"
+    Title.Parent = LeftFrame
+    Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Title.BackgroundTransparency = 1.000
+    Title.Size = UDim2.new(0, 139, 0, 50)
+    Title.Font = Enum.Font.Gotham
+    Title.Text = text
+    Title.TextColor3 = Accent
+    Title.TextSize = 21.000
+
+    Line.Name = "Line"
+    Line.Parent = LeftFrame
+    Line.BackgroundColor3 = Accent
+    Line.Position = UDim2.new(0, 0, 0.14199996, 0)
+    Line.Size = UDim2.new(0, 139, 0, 2)
+
+    LineCorner.CornerRadius = UDim.new(0, 9)
+    LineCorner.Name = "LineCorner"
+    LineCorner.Parent = Line
+
+    TabFrame.Name = "TabFrame"
+    TabFrame.Parent = LeftFrame
+    TabFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TabFrame.BackgroundTransparency = 1.000
+    TabFrame.Position = UDim2.new(0, 0, 0.189024389, 0)
+    TabFrame.Size = UDim2.new(0, 139, 0, 266)
+
+    TabList.Name = "TabList"
+    TabList.Parent = TabFrame
+    TabList.SortOrder = Enum.SortOrder.LayoutOrder
+    TabList.Padding = UDim.new(0, 8)
+
+    ContainersFolder.Name = "ContainersFolder"
+    ContainersFolder.Parent = MainFrame
+
+    DraggableFrame.Name = "DraggableFrame"
+    DraggableFrame.Parent = MainFrame
+    DraggableFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    DraggableFrame.BackgroundTransparency = 1.000
+    DraggableFrame.Position = UDim2.new(0.259202451, 0, 0.00563380262, 0)
+    DraggableFrame.Size = UDim2.new(0, 483, 0, 57)
+
+    MakeDraggable(DraggableFrame, MainFrame)
+
+    local WindowTabs = {}
+    function WindowTabs:Tab(title)
+        local Tab = Instance.new("TextButton")
+        local UICorner = Instance.new("UICorner")
+        local GlowTab = Instance.new("ImageLabel")
+        local LabelAccent = Instance.new("TextLabel")
+        local Container = Instance.new("Frame")
+        local ContainerGlow = Instance.new("ImageLabel")
+        local ContainerCorner = Instance.new("UICorner")
+        local ContainerItemHolder = Instance.new("ScrollingFrame")
+        local ItemHolderList = Instance.new("UIListLayout")
+
+        Tab.Name = "Tab"
+        Tab.Parent = TabFrame
+        Tab.BackgroundColor3 = Accent
+        Tab.BorderSizePixel = 0
+        Tab.Size = UDim2.new(0, 139, 0, 27)
+        Tab.AutoButtonColor = false
+        Tab.Font = Enum.Font.Gotham
+        Tab.Text = title
+        Tab.TextColor3 = Color3.fromRGB(255, 255, 255)
+        Tab.TextSize = 14.000
+        Tab.BackgroundTransparency = 1
+
+        UICorner.CornerRadius = UDim.new(0, 6)
+        UICorner.Parent = Tab
+
+        GlowTab.Name = "GlowTab"
+        GlowTab.Parent = Tab
+        GlowTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        GlowTab.BackgroundTransparency = 1.000
+        GlowTab.BorderSizePixel = 0
+        GlowTab.Position = UDim2.new(0, -15, 0, -15)
+        GlowTab.Size = UDim2.new(1, 30, 1, 30)
+        GlowTab.ZIndex = 0
+        GlowTab.Image = "rbxassetid://4996891970"
+        GlowTab.ImageColor3 = Accent
+        GlowTab.ScaleType = Enum.ScaleType.Slice
+        GlowTab.SliceCenter = Rect.new(20, 20, 280, 280)
+        GlowTab.ImageTransparency = 1
+
+        LabelAccent.Name = "LabelAccent"
+        LabelAccent.Parent = Tab
+        LabelAccent.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        LabelAccent.BackgroundTransparency = 1.000
+        LabelAccent.Size = UDim2.new(0, 139, 0, 27)
+        LabelAccent.Font = Enum.Font.Gotham
+        LabelAccent.Text = title
+        LabelAccent.TextColor3 = Accent
+        LabelAccent.TextSize = 14.000
+        LabelAccent.TextTransparency = 0
+
+        Container.Name = "Container"
+        Container.Parent = ContainersFolder
+        Container.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+        Container.Position = UDim2.new(0.259, 0, 0.169, 0)
+        Container.Size = UDim2.new(0, 471, 0, 281)
+        Container.Visible = false
+
+        ContainerGlow.Name = "ContainerGlow"
+        ContainerGlow.Parent = Container
+        ContainerGlow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        ContainerGlow.BackgroundTransparency = 1.000
+        ContainerGlow.BorderSizePixel = 0
+        ContainerGlow.Position = UDim2.new(0, -15, 0, -15)
+        ContainerGlow.Size = UDim2.new(1, 30, 1, 30)
+        ContainerGlow.ZIndex = 0
+        ContainerGlow.Image = "rbxassetid://4996891970"
+        ContainerGlow.ImageColor3 = Color3.fromRGB(15, 15, 15)
+        ContainerGlow.ScaleType = Enum.ScaleType.Slice
+        ContainerGlow.SliceCenter = Rect.new(20, 20, 280, 280)
+
+        ContainerCorner.CornerRadius = UDim.new(0, 9)
+        ContainerCorner.Name = "ContainerCorner"
+        ContainerCorner.Parent = Container
+
+        ContainerItemHolder.Name = "ContainerItemHolder"
+        ContainerItemHolder.Parent = Container
+        ContainerItemHolder.Active = true
+        ContainerItemHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        ContainerItemHolder.BackgroundTransparency = 1.000
+        ContainerItemHolder.BorderSizePixel = 0
+        ContainerItemHolder.Position = UDim2.new(0.0254777074, 0, 0.0365853645, 0)
+        ContainerItemHolder.Size = UDim2.new(0, 455, 0, 262)
+        ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, 0)
+        ContainerItemHolder.ScrollBarThickness = 2
+
+        ItemHolderList.Name = "ItemHolderList"
+        ItemHolderList.Parent = ContainerItemHolder
+        ItemHolderList.SortOrder = Enum.SortOrder.LayoutOrder
+        ItemHolderList.Padding = UDim.new(0, 5)
+
+        if FirstTab == false then
+            FirstTab = true
+            LabelAccent.TextTransparency = 1.000
+            GlowTab.ImageTransparency = 0
+            Tab.BackgroundTransparency = 0
+            Container.Visible = true
+        end
+
+        Tab.MouseButton1Click:Connect(
+            function()
+                for i, v in next, ContainersFolder:GetChildren() do
+                    if v.Name == "Container" then
+                        v.Visible = false
+                    end
+                end
+
+                for i, v in next, TabFrame:GetChildren() do
+                    if v.ClassName == "TextButton" then
+                        TweenService:Create(
+                            v,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundTransparency = 1}
+                        ):Play()
+                        TweenService:Create(
+                            v.GlowTab,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {ImageTransparency = 1}
+                        ):Play()
+                        TweenService:Create(
+                            v.LabelAccent,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {TextTransparency = 0}
+                        ):Play()
+                        TweenService:Create(
+                            Tab,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundTransparency = 0}
+                        ):Play()
+                        TweenService:Create(
+                            GlowTab,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {ImageTransparency = 0}
+                        ):Play()
+                        TweenService:Create(
+                            LabelAccent,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {TextTransparency = 1}
+                        ):Play()
+                    end
+                end
+                Container.Visible = true
+            end
+        )
+        local TabItems = {}
+        function TabItems:Button(text, callback)
+            local Button = Instance.new("TextButton")
+            local ButtonCorner = Instance.new("UICorner")
+
+            Button.Name = "Button"
+            Button.Parent = ContainerItemHolder
+            Button.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+            Button.Size = UDim2.new(0, 448, 0, 28)
+            Button.AutoButtonColor = false
+            Button.Font = Enum.Font.Gotham
+            Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Button.TextSize = 14.000
+            Button.Text = text
+            Button.ClipsDescendants = true
+
+            ButtonCorner.CornerRadius = UDim.new(0, 6)
+            ButtonCorner.Name = "ButtonCorner"
+            ButtonCorner.Parent = Button
+
+            Button.MouseEnter:Connect(
+                function()
+                    TweenService:Create(
+                        Button,
+                        TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(45, 45, 45)}
+                    ):Play()
+                end
+            )
+
+            Button.MouseLeave:Connect(
+                function()
+                    TweenService:Create(
+                        Button,
+                        TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}
+                    ):Play()
+                end
+            )
+
+            Button.MouseButton1Click:Connect(
+                function()
+                    Ripple(Button)
+                    pcall(callback)
+                end
+            )
+
+            ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, ItemHolderList.AbsoluteContentSize.Y)
+        end
+        function TabItems:Toggle(text, callback)
+            local Toggled = false
+            local Toggle = Instance.new("TextButton")
+            local ToggleCorner = Instance.new("UICorner")
+            local Title = Instance.new("TextLabel")
+            local BoxStatus = Instance.new("Frame")
+            local BoxCorner = Instance.new("UICorner")
+            local Dot = Instance.new("Frame")
+            local DotCorner = Instance.new("UICorner")
+
+            Toggle.Name = "Toggle"
+            Toggle.Parent = ContainerItemHolder
+            Toggle.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+            Toggle.Position = UDim2.new(0.245398775, 0, 0.630985916, 0)
+            Toggle.Size = UDim2.new(0, 448, 0, 28)
+            Toggle.AutoButtonColor = false
+            Toggle.Font = Enum.Font.Gotham
+            Toggle.Text = ""
+            Toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Toggle.TextSize = 14.000
+            Toggle.ClipsDescendants = true
+
+            ToggleCorner.CornerRadius = UDim.new(0, 6)
+            ToggleCorner.Name = "ToggleCorner"
+            ToggleCorner.Parent = Toggle
+
+            Title.Name = "Title"
+            Title.Parent = Toggle
+            Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Title.BackgroundTransparency = 1.000
+            Title.Position = UDim2.new(0.0200892854, 0, 0, 0)
+            Title.Size = UDim2.new(0, 0, 0, 28)
+            Title.Font = Enum.Font.Gotham
+            Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Title.TextSize = 14.000
+            Title.TextXAlignment = Enum.TextXAlignment.Left
+            Title.Text = text
+
+            BoxStatus.Name = "BoxStatus"
+            BoxStatus.Parent = Toggle
+            BoxStatus.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+            BoxStatus.Position = UDim2.new(0.908482134, 0, 0.142857149, 0)
+            BoxStatus.Size = UDim2.new(0, 35, 0, 19)
+
+            BoxCorner.CornerRadius = UDim.new(1, 0)
+            BoxCorner.Name = "BoxCorner"
+            BoxCorner.Parent = BoxStatus
+
+            Dot.Name = "Dot"
+            Dot.Parent = BoxStatus
+            Dot.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+            Dot.Position = UDim2.new(0.0799999982, 0, 0.126000002, 0)
+            Dot.Size = UDim2.new(0, 14, 0, 14)
+
+            DotCorner.CornerRadius = UDim.new(1, 0)
+            DotCorner.Name = "DotCorner"
+            DotCorner.Parent = Dot
+
+            Toggle.MouseEnter:Connect(
+                function()
+                    TweenService:Create(
+                        Toggle,
+                        TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(45, 45, 45)}
+                    ):Play()
+                end
+            )
+
+            Toggle.MouseLeave:Connect(
+                function()
+                    TweenService:Create(
+                        Toggle,
+                        TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}
+                    ):Play()
+                end
+            )
+
+            Toggle.MouseButton1Click:Connect(
+                function()
+                    if Toggled == false then
+                        Toggled = not Toggled
+                        TweenService:Create(
+                            Dot,
+                            TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundColor3 = Accent}
+                        ):Play()
+                        TweenService:Create(
+                            Dot,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {Position = UDim2.new(0.48, 0, 0.126, 0)}
+                        ):Play()
+                    else
+                        Toggled = not Toggled
+                        TweenService:Create(
+                            Dot,
+                            TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}
+                        ):Play()
+                        TweenService:Create(
+                            Dot,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {Position = UDim2.new(0.0799999982, 0, 0.126000002, 0)}
+                        ):Play()
+                    end
+                    pcall(callback, Toggled)
+                    Ripple(Toggle)
+                end
+            )
+            ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, ItemHolderList.AbsoluteContentSize.Y)
+        end
+        function TabItems:Slider(text, min, max, start, callback)
+            local dragging = false
+            local Slider = Instance.new("TextButton")
+            local SliderCorner = Instance.new("UICorner")
+            local Title = Instance.new("TextLabel")
+            local SliderFrame = Instance.new("Frame")
+            local SliderFrameCorner = Instance.new("UICorner")
+            local Indicator = Instance.new("Frame")
+            local IndicatorCorner = Instance.new("UICorner")
+            local Value = Instance.new("TextLabel")
+
+            Slider.Name = "Slider"
+            Slider.Parent = ContainerItemHolder
+            Slider.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+            Slider.Position = UDim2.new(0.245398775, 0, 0.630985916, 0)
+            Slider.Size = UDim2.new(0, 448, 0, 28)
+            Slider.AutoButtonColor = false
+            Slider.Font = Enum.Font.Gotham
+            Slider.Text = ""
+            Slider.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Slider.TextSize = 14.000
+
+            SliderCorner.CornerRadius = UDim.new(0, 6)
+            SliderCorner.Name = "SliderCorner"
+            SliderCorner.Parent = Slider
+
+            Title.Name = "Title"
+            Title.Parent = Slider
+            Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Title.BackgroundTransparency = 1.000
+            Title.Position = UDim2.new(0.0200892854, 0, 0, 0)
+            Title.Size = UDim2.new(0, 0, 0, 28)
+            Title.Font = Enum.Font.Gotham
+            Title.Text = text
+            Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Title.TextSize = 14.000
+            Title.TextXAlignment = Enum.TextXAlignment.Left
+
+            Value.Name = "Value"
+            Value.Parent = Slider
+            Value.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Value.BackgroundTransparency = 1.000
+            Value.Position = UDim2.new(0.392857134, 0, 0, 0)
+            Value.Size = UDim2.new(0, 38, 0, 28)
+            Value.Font = Enum.Font.Gotham
+            Value.Text = tostring(start and math.floor((start / max) * (max - min) + min) or 0)
+            Value.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Value.TextSize = 13.000
+            Value.TextXAlignment = Enum.TextXAlignment.Right
+
+            SliderFrame.Name = "SliderFrame"
+            SliderFrame.Parent = Slider
+            SliderFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+            SliderFrame.Position = UDim2.new(0.495535702, 0, 0.285714298, 0)
+            SliderFrame.Size = UDim2.new(0, 217, 0, 12)
+
+            SliderFrameCorner.CornerRadius = UDim.new(1, 0)
+            SliderFrameCorner.Name = "SliderFrameCorner"
+            SliderFrameCorner.Parent = SliderFrame
+
+            Indicator.Name = "Indicator"
+            Indicator.Parent = SliderFrame
+            Indicator.BackgroundColor3 = Accent
+            Indicator.BorderSizePixel = 0
+            Indicator.Position = UDim2.new(-0.00216013822, 0, -0.0476175956, 0)
+            Indicator.Size = UDim2.new((start or 0) / max, 0, 0, 12)
+
+            IndicatorCorner.CornerRadius = UDim.new(1, 0)
+            IndicatorCorner.Name = "IndicatorCorner"
+            IndicatorCorner.Parent = Indicator
+
+            local function slide(input)
+                local pos =
+                    UDim2.new(
+                    math.clamp((input.Position.X - SliderFrame.AbsolutePosition.X) / SliderFrame.AbsoluteSize.X, 0, 1),
+                    0,
+                    0,
+                    12
+                )
+                Indicator:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quart, 0.3, true)
+                local s = math.floor(((pos.X.Scale * max) / max) * (max - min) + min)
+                Value.Text = tostring(s)
+                pcall(callback, s)
+            end
+
+            SliderFrame.InputBegan:Connect(
+                function(input)
+                    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                        slide(input)
+                        dragging = true
+                    end
+                end
+            )
+
+            SliderFrame.InputEnded:Connect(
+                function(input)
+                    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                        dragging = false
+                    end
+                end
+            )
+
+            UserInputService.InputChanged:Connect(
+                function(input)
+                    if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+                        slide(input)
+                    end
+                end
+            )
+            ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, ItemHolderList.AbsoluteContentSize.Y)
+        end
+
+        function TabItems:Dropdown(text, list, callback)
+            local ItemCount = 0
+            local FrameSize = 9
+            local DropToggled = false
+
+            local Dropdown = Instance.new("TextButton")
+            local DropdownCorner = Instance.new("UICorner")
+            local Title = Instance.new("TextLabel")
+            local Icon = Instance.new("ImageButton")
+
+            Dropdown.Name = "Dropdown"
+            Dropdown.Parent = ContainerItemHolder
+            Dropdown.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+            Dropdown.Position = UDim2.new(0.259202451, 0, 0.594366193, 0)
+            Dropdown.Size = UDim2.new(0, 448, 0, 28)
+            Dropdown.AutoButtonColor = false
+            Dropdown.Font = Enum.Font.Gotham
+            Dropdown.Text = ""
+            Dropdown.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Dropdown.TextSize = 14.000
+            Dropdown.BorderSizePixel = 0
+            Dropdown.ClipsDescendants = true
+
+            DropdownCorner.CornerRadius = UDim.new(0, 6)
+            DropdownCorner.Name = "DropdownCorner"
+            DropdownCorner.Parent = Dropdown
+
+            Title.Name = "Title"
+            Title.Parent = Dropdown
+            Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Title.BackgroundTransparency = 1.000
+            Title.Position = UDim2.new(0.0200892854, 0, 0, 0)
+            Title.Size = UDim2.new(0, 0, 0, 28)
+            Title.Font = Enum.Font.Gotham
+            Title.Text = text
+            Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Title.TextSize = 14.000
+            Title.TextXAlignment = Enum.TextXAlignment.Left
+
+            Icon.Name = "Icon"
+            Icon.Parent = Dropdown
+            Icon.BackgroundTransparency = 1.000
+            Icon.Position = UDim2.new(0.930803597, 0, 0.0357142873, 0)
+            Icon.Size = UDim2.new(0, 25, 0, 25)
+            Icon.ZIndex = 2
+            Icon.Image = "rbxassetid://3926305904"
+            Icon.ImageRectOffset = Vector2.new(44, 404)
+            Icon.ImageRectSize = Vector2.new(36, 36)
+
+            local DropdownFrame = Instance.new("Frame")
+            local DropdownFrameCorner = Instance.new("UICorner")
+            local DropdownItemHolder = Instance.new("ScrollingFrame")
+            local DropdownItemHolderList = Instance.new("UIListLayout")
+            local DropdownFramePadding = Instance.new("UIPadding")
+
+            DropdownFrame.Name = "DropdownFrame"
+            DropdownFrame.Parent = ContainerItemHolder
+            DropdownFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+            DropdownFrame.Position = UDim2.new(0.0828220844, 0, 1.04184508, 0)
+            DropdownFrame.Size = UDim2.new(0, 448, 0, 0)
+            DropdownFrame.ClipsDescendants = true
+            DropdownFrame.BorderSizePixel = 0
+            DropdownFrame.Visible = false
+
+            DropdownFrameCorner.CornerRadius = UDim.new(0, 6)
+            DropdownFrameCorner.Name = "DropdownFrameCorner"
+            DropdownFrameCorner.Parent = DropdownFrame
+
+            DropdownItemHolder.Name = "DropdownItemHolder"
+            DropdownItemHolder.Parent = DropdownFrame
+            DropdownItemHolder.Active = true
+            DropdownItemHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            DropdownItemHolder.BackgroundTransparency = 1.000
+            DropdownItemHolder.BorderSizePixel = 0
+            DropdownItemHolder.Position = UDim2.new(0.0254776813, 0, 0, 0)
+            DropdownItemHolder.Size = UDim2.new(0, 431, 0, 0)
+            DropdownItemHolder.CanvasSize = UDim2.new(0, 0, 0, 0)
+            DropdownItemHolder.ScrollBarThickness = 2
+
+            DropdownItemHolderList.Name = "DropdownItemHolderList"
+            DropdownItemHolderList.Parent = DropdownItemHolder
+            DropdownItemHolderList.SortOrder = Enum.SortOrder.LayoutOrder
+            DropdownItemHolderList.Padding = UDim.new(0, 5)
+
+            DropdownFramePadding.Name = "DropdownFramePadding"
+            DropdownFramePadding.Parent = DropdownItemHolder
+            DropdownFramePadding.PaddingBottom = UDim.new(0, 8)
+            DropdownFramePadding.PaddingTop = UDim.new(0, 8)
+
+            Dropdown.MouseEnter:Connect(
+                function()
+                    TweenService:Create(
+                        Dropdown,
+                        TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(45, 45, 45)}
+                    ):Play()
+                end
+            )
+
+            Dropdown.MouseLeave:Connect(
+                function()
+                    TweenService:Create(
+                        Dropdown,
+                        TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}
+                    ):Play()
+                end
+            )
+
+            Dropdown.MouseButton1Click:Connect(
+                function()
+                    Ripple(Dropdown)
+                    if DropToggled == false then
+                        DropdownFrame.Visible = true
+                        DropdownFrame:TweenSize(
+                            UDim2.new(0, 448, 0, FrameSize),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            0.1,
+                            true
+                        )
+                        DropdownItemHolder:TweenSize(
+                            UDim2.new(0, 431, 0, FrameSize),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            0.1,
+                            true
+                        )
+                        TweenService:Create(
+                            Icon,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {Rotation = 180}
+                        ):Play()
+                        repeat
+                            wait()
+                        until DropdownFrame.Size == UDim2.new(0, 448, 0, FrameSize)
+                        ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, ItemHolderList.AbsoluteContentSize.Y)
+                    else
+                        DropdownFrame:TweenSize(
+                            UDim2.new(0, 448, 0, 0),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            0.1,
+                            true
+                        )
+                        DropdownItemHolder:TweenSize(
+                            UDim2.new(0, 431, 0, 0),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            0.1,
+                            true
+                        )
+                        TweenService:Create(
+                            Icon,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {Rotation = 0}
+                        ):Play()
+                        repeat
+                            wait()
+                        until DropdownFrame.Size == UDim2.new(0, 448, 0, 0)
+                        DropdownFrame.Visible = false
+                        ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, ItemHolderList.AbsoluteContentSize.Y)
+                    end
+                    DropToggled = not DropToggled
+                end
+            )
+
+            for i, v in next, list do
+                ItemCount = ItemCount + 1
+
+                if ItemCount <= 2 then
+                    FrameSize = FrameSize + 30
+                elseif ItemCount >= 3 then
+                    FrameSize = 100
+                end
+
+                local Item = Instance.new("TextButton")
+                local ItemCorner = Instance.new("UICorner")
+                Item.Name = "Item"
+                Item.Parent = DropdownItemHolder
+                Item.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+                Item.Position = UDim2.new(0.0255220421, 0, -0.0595238097, 0)
+                Item.Size = UDim2.new(0, 425, 0, 24)
+                Item.AutoButtonColor = false
+                Item.Font = Enum.Font.Gotham
+                Item.TextColor3 = Color3.fromRGB(255, 255, 255)
+                Item.TextSize = 14.000
+                Item.Text = v
+
+                ItemCorner.CornerRadius = UDim.new(0, 6)
+                ItemCorner.Name = "ItemCorner"
+                ItemCorner.Parent = Item
+
+                Item.MouseEnter:Connect(
+                    function()
+                        TweenService:Create(
+                            Item,
+                            TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundColor3 = Color3.fromRGB(45, 45, 45)}
+                        ):Play()
+                    end
+                )
+
+                Item.MouseLeave:Connect(
+                    function()
+                        TweenService:Create(
+                            Item,
+                            TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}
+                        ):Play()
+                    end
+                )
+
+                Item.MouseButton1Click:Connect(
+                    function()
+                        pcall(callback, v)
+                        Title.Text = text .. " : " .. v
+                        DropdownFrame:TweenSize(
+                            UDim2.new(0, 448, 0, 0),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            0.1,
+                            true
+                        )
+                        DropdownItemHolder:TweenSize(
+                            UDim2.new(0, 431, 0, 0),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            0.1,
+                            true
+                        )
+                        TweenService:Create(
+                            Icon,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {Rotation = 0}
+                        ):Play()
+                        repeat
+                            wait()
+                        until DropdownFrame.Size == UDim2.new(0, 448, 0, 0)
+                        DropdownFrame.Visible = false
+                        ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, ItemHolderList.AbsoluteContentSize.Y)
+                        DropToggled = not DropToggled
+                    end
+                )
+                DropdownItemHolder.CanvasSize = UDim2.new(0, 0, 0, DropdownItemHolderList.AbsoluteContentSize.Y + 15)
+            end
+            ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, ItemHolderList.AbsoluteContentSize.Y)
+        end
+        function TabItems:Colorpicker(text, preset, callback)
+            local ColorPickerToggled = false
+            local OldToggleColor = Color3.fromRGB(0, 0, 0)
+            local OldColor = Color3.fromRGB(0, 0, 0)
+            local OldColorSelectionPosition = nil
+            local OldHueSelectionPosition = nil
+            local ColorH, ColorS, ColorV = 1, 1, 1
+            local RainbowColorPicker = false
+            local ColorPickerInput = nil
+            local ColorInput = nil
+            local HueInput = nil
+
+            local Colorpicker = Instance.new("TextButton")
+            local ColorpickerCorner = Instance.new("UICorner")
+            local Title = Instance.new("TextLabel")
+            local BoxColor = Instance.new("Frame")
+            local BoxCorner = Instance.new("UICorner")
+
+            Colorpicker.Name = "Colorpicker"
+            Colorpicker.Parent = ContainerItemHolder
+            Colorpicker.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+            Colorpicker.Position = UDim2.new(0.245398775, 0, 0.630985916, 0)
+            Colorpicker.Size = UDim2.new(0, 448, 0, 28)
+            Colorpicker.AutoButtonColor = false
+            Colorpicker.Font = Enum.Font.Gotham
+            Colorpicker.Text = ""
+            Colorpicker.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Colorpicker.TextSize = 14.000
+            Colorpicker.ClipsDescendants = true
+
+            ColorpickerCorner.CornerRadius = UDim.new(0, 6)
+            ColorpickerCorner.Name = "ColorpickerCorner"
+            ColorpickerCorner.Parent = Colorpicker
+
+            Title.Name = "Title"
+            Title.Parent = Colorpicker
+            Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Title.BackgroundTransparency = 1.000
+            Title.Position = UDim2.new(0.0200892854, 0, 0, 0)
+            Title.Size = UDim2.new(0, 0, 0, 28)
+            Title.Font = Enum.Font.Gotham
+            Title.Text = text
+            Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Title.TextSize = 14.000
+            Title.TextXAlignment = Enum.TextXAlignment.Left
+
+            BoxColor.Name = "BoxColor"
+            BoxColor.Parent = Colorpicker
+            BoxColor.BackgroundColor3 = preset
+            BoxColor.Position = UDim2.new(0.866071403, 0, 0.142857149, 0)
+            BoxColor.Size = UDim2.new(0, 54, 0, 19)
+
+            BoxCorner.CornerRadius = UDim.new(0, 6)
+            BoxCorner.Name = "BoxCorner"
+            BoxCorner.Parent = BoxColor
+
+            local ColorpickerFrame = Instance.new("Frame")
+            local ColorpickerFrameCorner = Instance.new("UICorner")
+            local Color = Instance.new("ImageLabel")
+            local ColorCorner = Instance.new("UICorner")
+            local ColorSelection = Instance.new("ImageLabel")
+            local Hue = Instance.new("ImageLabel")
+            local HueCorner = Instance.new("UICorner")
+            local HueGradient = Instance.new("UIGradient")
+            local HueSelection = Instance.new("ImageLabel")
+            local Confirm = Instance.new("TextButton")
+            local ConfirmCorner = Instance.new("UICorner")
+            local RainbowToggle = Instance.new("TextButton")
+            local RainbowToggleCorner = Instance.new("UICorner")
+            local RainbowTitle = Instance.new("TextLabel")
+            local RainbowBoxStatus = Instance.new("Frame")
+            local RainbowBoxCorner = Instance.new("UICorner")
+            local RainbowDot = Instance.new("Frame")
+            local RainbowDotCorner = Instance.new("UICorner")
+
+            ColorpickerFrame.Name = "ColorpickerFrame"
+            ColorpickerFrame.Parent = ContainerItemHolder
+            ColorpickerFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+            ColorpickerFrame.Position = UDim2.new(-0.345092028, 0, 0.816492796, 0)
+            ColorpickerFrame.Size = UDim2.new(0, 448, 0, 0)
+            ColorpickerFrame.Visible = false
+            ColorpickerFrame.ClipsDescendants = true
+            ColorpickerFrame.BorderSizePixel = 0
+
+            ColorpickerFrameCorner.CornerRadius = UDim.new(0, 6)
+            ColorpickerFrameCorner.Name = "ColorpickerFrameCorner"
+            ColorpickerFrameCorner.Parent = ColorpickerFrame
+
+            Color.Name = "Color"
+            Color.Parent = ColorpickerFrame
+            Color.BackgroundColor3 = preset
+            Color.Position = UDim2.new(0, 9, 0, 9)
+            Color.Size = UDim2.new(0, 212, 0, 80)
+            Color.ZIndex = 10
+            Color.Image = "rbxassetid://4155801252"
+
+            ColorCorner.CornerRadius = UDim.new(0, 3)
+            ColorCorner.Name = "ColorCorner"
+            ColorCorner.Parent = Color
+
+            ColorSelection.Name = "ColorSelection"
+            ColorSelection.Parent = Color
+            ColorSelection.AnchorPoint = Vector2.new(0.5, 0.5)
+            ColorSelection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ColorSelection.BackgroundTransparency = 1.000
+            ColorSelection.Position = UDim2.new(preset and select(3, Color3.toHSV(preset)))
+            ColorSelection.Size = UDim2.new(0, 18, 0, 18)
+            ColorSelection.Image = "http://www.roblox.com/asset/?id=4805639000"
+            ColorSelection.ScaleType = Enum.ScaleType.Fit
+
+            Hue.Name = "Hue"
+            Hue.Parent = ColorpickerFrame
+            Hue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Hue.Position = UDim2.new(0, 233, 0, 9)
+            Hue.Size = UDim2.new(0, 25, 0, 80)
+
+            HueCorner.CornerRadius = UDim.new(0, 3)
+            HueCorner.Name = "HueCorner"
+            HueCorner.Parent = Hue
+
+            HueGradient.Color =
+                ColorSequence.new {
+                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)),
+                ColorSequenceKeypoint.new(0.20, Color3.fromRGB(234, 255, 0)),
+                ColorSequenceKeypoint.new(0.40, Color3.fromRGB(21, 255, 0)),
+                ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 255, 255)),
+                ColorSequenceKeypoint.new(0.80, Color3.fromRGB(0, 17, 255)),
+                ColorSequenceKeypoint.new(0.90, Color3.fromRGB(255, 0, 251)),
+                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))
+            }
+            HueGradient.Rotation = 270
+            HueGradient.Name = "HueGradient"
+            HueGradient.Parent = Hue
+
+            HueSelection.Name = "HueSelection"
+            HueSelection.Parent = Hue
+            HueSelection.AnchorPoint = Vector2.new(0.5, 0.5)
+            HueSelection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            HueSelection.BackgroundTransparency = 1.000
+            HueSelection.Position = UDim2.new(0.48, 0, 1 - select(1, Color3.toHSV(preset)))
+            HueSelection.Size = UDim2.new(0, 18, 0, 18)
+            HueSelection.Image = "http://www.roblox.com/asset/?id=4805639000"
+
+            Confirm.Name = "Confirm"
+            Confirm.Parent = ColorpickerFrame
+            Confirm.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+            Confirm.Position = UDim2.new(0.611607134, 0, 0.183673471, 0)
+            Confirm.Size = UDim2.new(0, 162, 0, 28)
+            Confirm.AutoButtonColor = false
+            Confirm.Font = Enum.Font.Gotham
+            Confirm.Text = "Confirm"
+            Confirm.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Confirm.TextSize = 14.000
+
+            ConfirmCorner.CornerRadius = UDim.new(0, 6)
+            ConfirmCorner.Name = "ConfirmCorner"
+            ConfirmCorner.Parent = Confirm
+
+            RainbowToggle.Name = "RainbowToggle"
+            RainbowToggle.Parent = ColorpickerFrame
+            RainbowToggle.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+            RainbowToggle.Position = UDim2.new(0.611607134, 0, 0.528944969, 0)
+            RainbowToggle.Size = UDim2.new(0, 162, 0, 28)
+            RainbowToggle.AutoButtonColor = false
+            RainbowToggle.Font = Enum.Font.Gotham
+            RainbowToggle.Text = ""
+            RainbowToggle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            RainbowToggle.TextSize = 14.000
+
+            RainbowToggleCorner.CornerRadius = UDim.new(0, 6)
+            RainbowToggleCorner.Name = "RainbowToggleCorner"
+            RainbowToggleCorner.Parent = RainbowToggle
+
+            RainbowTitle.Name = "RainbowTitle"
+            RainbowTitle.Parent = RainbowToggle
+            RainbowTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            RainbowTitle.BackgroundTransparency = 1.000
+            RainbowTitle.Position = UDim2.new(0.0400892854, 0, 0, 0)
+            RainbowTitle.Size = UDim2.new(0, 0, 0, 28)
+            RainbowTitle.Font = Enum.Font.Gotham
+            RainbowTitle.Text = "Rainbow"
+            RainbowTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            RainbowTitle.TextSize = 14.000
+            RainbowTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            RainbowBoxStatus.Name = "RainbowBoxStatus"
+            RainbowBoxStatus.Parent = RainbowToggle
+            RainbowBoxStatus.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+            RainbowBoxStatus.Position = UDim2.new(0.749000013, 0, 0.143000007, 0)
+            RainbowBoxStatus.Size = UDim2.new(0, 35, 0, 19)
+
+            RainbowBoxCorner.CornerRadius = UDim.new(1, 0)
+            RainbowBoxCorner.Name = "RainbowBoxCorner"
+            RainbowBoxCorner.Parent = RainbowBoxStatus
+
+            RainbowDot.Name = "RainbowDot"
+            RainbowDot.Parent = RainbowBoxStatus
+            RainbowDot.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+            RainbowDot.Position = UDim2.new(0.0799999982, 0, 0.126000002, 0)
+            RainbowDot.Size = UDim2.new(0, 14, 0, 14)
+
+            RainbowDotCorner.CornerRadius = UDim.new(1, 0)
+            RainbowDotCorner.Name = "RainbowDotCorner"
+            RainbowDotCorner.Parent = RainbowDot
+
+            Colorpicker.MouseEnter:Connect(
+                function()
+                    TweenService:Create(
+                        Colorpicker,
+                        TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(44, 44, 44)}
+                    ):Play()
+                end
+            )
+
+            Colorpicker.MouseLeave:Connect(
+                function()
+                    TweenService:Create(
+                        Colorpicker,
+                        TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(39, 39, 39)}
+                    ):Play()
+                end
+            )
+
+            local function UpdateColorPicker(nope)
+                BoxColor.BackgroundColor3 = Color3.fromHSV(ColorH, ColorS, ColorV)
+                Color.BackgroundColor3 = Color3.fromHSV(ColorH, 1, 1)
+
+                pcall(callback, BoxColor.BackgroundColor3)
+            end
+
+            ColorH =
+                1 -
+                (math.clamp(HueSelection.AbsolutePosition.Y - Hue.AbsolutePosition.Y, 0, Hue.AbsoluteSize.Y) /
+                    Hue.AbsoluteSize.Y)
+            ColorS =
+                (math.clamp(ColorSelection.AbsolutePosition.X - Color.AbsolutePosition.X, 0, Color.AbsoluteSize.X) /
+                Color.AbsoluteSize.X)
+            ColorV =
+                1 -
+                (math.clamp(ColorSelection.AbsolutePosition.Y - Color.AbsolutePosition.Y, 0, Color.AbsoluteSize.Y) /
+                    Color.AbsoluteSize.Y)
+
+            BoxColor.BackgroundColor3 = preset
+            Color.BackgroundColor3 = preset
+            pcall(callback, BoxColor.BackgroundColor3)
+
+            Color.InputBegan:Connect(
+                function(input)
+                    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                        if RainbowColorPicker then
+                            return
+                        end
+
+                        if ColorInput then
+                            ColorInput:Disconnect()
+                        end
+
+                        ColorInput =
+                            RunService.RenderStepped:Connect(
+                            function()
+                                local ColorX =
+                                    (math.clamp(Mouse.X - Color.AbsolutePosition.X, 0, Color.AbsoluteSize.X) /
+                                    Color.AbsoluteSize.X)
+                                local ColorY =
+                                    (math.clamp(Mouse.Y - Color.AbsolutePosition.Y, 0, Color.AbsoluteSize.Y) /
+                                    Color.AbsoluteSize.Y)
+
+                                ColorSelection.Position = UDim2.new(ColorX, 0, ColorY, 0)
+                                ColorS = ColorX
+                                ColorV = 1 - ColorY
+
+                                UpdateColorPicker(true)
+                            end
+                        )
+                    end
+                end
+            )
+
+            Color.InputEnded:Connect(
+                function(input)
+                    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                        if ColorInput then
+                            ColorInput:Disconnect()
+                        end
+                    end
+                end
+            )
+
+            Hue.InputBegan:Connect(
+                function(input)
+                    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                        if RainbowColorPicker then
+                            return
+                        end
+
+                        if HueInput then
+                            HueInput:Disconnect()
+                        end
+
+                        HueInput =
+                            RunService.RenderStepped:Connect(
+                            function()
+                                local HueY =
+                                    (math.clamp(Mouse.Y - Hue.AbsolutePosition.Y, 0, Hue.AbsoluteSize.Y) /
+                                    Hue.AbsoluteSize.Y)
+
+                                HueSelection.Position = UDim2.new(0.48, 0, HueY, 0)
+                                ColorH = 1 - HueY
+
+                                UpdateColorPicker(true)
+                            end
+                        )
+                    end
+                end
+            )
+
+            Hue.InputEnded:Connect(
+                function(input)
+                    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                        if HueInput then
+                            HueInput:Disconnect()
+                        end
+                    end
+                end
+            )
+
+            RainbowToggle.MouseEnter:Connect(
+                function()
+                    TweenService:Create(
+                        RainbowToggle,
+                        TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(45, 45, 45)}
+                    ):Play()
+                end
+            )
+
+            RainbowToggle.MouseLeave:Connect(
+                function()
+                    TweenService:Create(
+                        RainbowToggle,
+                        TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}
+                    ):Play()
+                end
+            )
+
+            Confirm.MouseEnter:Connect(
+                function()
+                    TweenService:Create(
+                        Confirm,
+                        TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(45, 45, 45)}
+                    ):Play()
+                end
+            )
+
+            Confirm.MouseLeave:Connect(
+                function()
+                    TweenService:Create(
+                        Confirm,
+                        TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}
+                    ):Play()
+                end
+            )
+
+            RainbowToggle.MouseButton1Down:Connect(
+                function()
+                    RainbowColorPicker = not RainbowColorPicker
+
+                    if ColorInput then
+                        ColorInput:Disconnect()
+                    end
+
+                    if HueInput then
+                        HueInput:Disconnect()
+                    end
+
+                    if RainbowColorPicker then
+                        TweenService:Create(
+                            RainbowDot,
+                            TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundColor3 = Accent}
+                        ):Play()
+                        TweenService:Create(
+                            RainbowDot,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {Position = UDim2.new(0.48, 0, 0.126, 0)}
+                        ):Play()
+
+                        OldToggleColor = BoxColor.BackgroundColor3
+                        OldColor = Color.BackgroundColor3
+                        OldColorSelectionPosition = ColorSelection.Position
+                        OldHueSelectionPosition = HueSelection.Position
+
+                        while RainbowColorPicker do
+                            BoxColor.BackgroundColor3 = Color3.fromHSV(Lib.RainbowColorValue, 1, 1)
+                            Color.BackgroundColor3 = Color3.fromHSV(Lib.RainbowColorValue, 1, 1)
+
+                            ColorSelection.Position = UDim2.new(1, 0, 0, 0)
+                            HueSelection.Position = UDim2.new(0.48, 0, 0, Lib.HueSelectionPosition)
+
+                            pcall(callback, BoxColor.BackgroundColor3)
+                            wait()
+                        end
+                    elseif not RainbowColorPicker then
+                        TweenService:Create(
+                            RainbowDot,
+                            TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}
+                        ):Play()
+                        TweenService:Create(
+                            RainbowDot,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {Position = UDim2.new(0.0799999982, 0, 0.126000002, 0)}
+                        ):Play()
+                        BoxColor.BackgroundColor3 = OldToggleColor
+                        Color.BackgroundColor3 = OldColor
+
+                        ColorSelection.Position = OldColorSelectionPosition
+                        HueSelection.Position = OldHueSelectionPosition
+
+                        pcall(callback, BoxColor.BackgroundColor3)
+                    end
+                end
+            )
+
+            Colorpicker.MouseButton1Click:Connect(
+                function()
+                    Ripple(Colorpicker)
+                    if ColorPickerToggled == false then
+                        ColorPickerToggled = not ColorPickerToggled
+                        ColorpickerFrame.Visible = true
+                        ColorpickerFrame:TweenSize(
+                            UDim2.new(0, 448, 0, 98),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            0.1,
+                            true
+                        )
+                        repeat
+                            wait()
+                        until ColorpickerFrame.Size == UDim2.new(0, 448, 0, 98)
+                        ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, ItemHolderList.AbsoluteContentSize.Y)
+                    else
+                        ColorPickerToggled = not ColorPickerToggled
+                        ColorpickerFrame:TweenSize(
+                            UDim2.new(0, 448, 0, 0),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            0.1,
+                            true
+                        )
+                        repeat
+                            wait()
+                        until ColorpickerFrame.Size == UDim2.new(0, 448, 0, 0)
+                        ColorpickerFrame.Visible = false
+                        ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, ItemHolderList.AbsoluteContentSize.Y)
+                    end
+                end
+            )
+
+            Confirm.MouseButton1Click:Connect(
+                function()
+                    ColorPickerToggled = not ColorPickerToggled
+                    ColorpickerFrame:TweenSize(
+                        UDim2.new(0, 448, 0, 0),
+                        Enum.EasingDirection.Out,
+                        Enum.EasingStyle.Quart,
+                        0.1,
+                        true
+                    )
+                    repeat
+                        wait()
+                    until ColorpickerFrame.Size == UDim2.new(0, 491, 0, 0)
+                    ColorpickerFrame.Visible = false
+                    ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, ItemHolderList.AbsoluteContentSize.Y)
+                end
+            )
+            ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, ItemHolderList.AbsoluteContentSize.Y)
+        end
+
+        function TabItems:Textbox(text, disapper, callback)
+            local Textbox = Instance.new("TextButton")
+            local TextboxCorner = Instance.new("UICorner")
+            local TextBox = Instance.new("TextBox")
+            local TextBoxCorner = Instance.new("UICorner")
+
+            Textbox.Name = "Textbox"
+            Textbox.Parent = ContainerItemHolder
+            Textbox.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+            Textbox.Position = UDim2.new(-0.230061352, 0, 0.856338024, 0)
+            Textbox.Size = UDim2.new(0, 448, 0, 28)
+            Textbox.AutoButtonColor = false
+            Textbox.Font = Enum.Font.Gotham
+            Textbox.Text = ""
+            Textbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Textbox.TextSize = 14.000
+
+            TextboxCorner.CornerRadius = UDim.new(0, 6)
+            TextboxCorner.Name = "TextboxCorner"
+            TextboxCorner.Parent = Textbox
+
+            TextBox.Parent = Textbox
+            TextBox.AnchorPoint = Vector2.new(0.5, 0.5)
+            TextBox.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+            TextBox.Position = UDim2.new(0.5, 0, 0.5, 0)
+            TextBox.Size = UDim2.new(0, 349, 0, 20)
+            TextBox.Font = Enum.Font.Gotham
+            TextBox.PlaceholderColor3 = Color3.fromRGB(216, 216, 216)
+            TextBox.PlaceholderText = text
+            TextBox.Text = ""
+            TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+            TextBox.TextSize = 14.000
+
+            TextBoxCorner.CornerRadius = UDim.new(0, 6)
+            TextBoxCorner.Name = "TextBoxCorner"
+            TextBoxCorner.Parent = TextBox
+
+            TextBox.Focused:Connect(
+                function()
+                    TextBox:TweenSize(
+                        UDim2.new(0, 399, 0, 20),
+                        Enum.EasingDirection.Out,
+                        Enum.EasingStyle.Quart,
+                        0.2,
+                        true
+                    )
+                end
+            )
+
+            TextBox.FocusLost:Connect(
+                function(ep)
+                    if ep then
+                        if #TextBox.Text > 0 then
+                            pcall(callback, TextBox.Text)
+                            TextBox:TweenSize(
+                                UDim2.new(0, 349, 0, 20),
+                                Enum.EasingDirection.Out,
+                                Enum.EasingStyle.Quart,
+                                0.2,
+                                true
+                            )
+                            if disapper then
+                                TextBox.Text = ""
+                            end
+                        end
+                    end
+                end
+            )
+            ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, ItemHolderList.AbsoluteContentSize.Y)
+        end
+        function TabItems:Label(text)
+            local Label = Instance.new("TextButton")
+            local LabelCorner = Instance.new("UICorner")
+
+            Label.Name = "Button"
+            Label.Parent = ContainerItemHolder
+            Label.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+            Label.Size = UDim2.new(0, 448, 0, 28)
+            Label.AutoButtonColor = false
+            Label.Font = Enum.Font.Gotham
+            Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Label.TextSize = 14.000
+            Label.Text = text
+            Label.ClipsDescendants = true
+
+            LabelCorner.CornerRadius = UDim.new(0, 6)
+            LabelCorner.Name = "ButtonCorner"
+            LabelCorner.Parent = Label
+
+            ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, ItemHolderList.AbsoluteContentSize.Y)
+        end
+
+        function TabItems:Keybind(text, presetbind, callback)
+            local Key = presetbind.Name
+            local KeyBind = Instance.new("TextButton")
+            local KeyBindCorner = Instance.new("UICorner")
+            local Title = Instance.new("TextLabel")
+            local BoxBind = Instance.new("Frame")
+            local BoxCorner = Instance.new("UICorner")
+            local CurrentBind = Instance.new("TextLabel")
+
+            KeyBind.Name = "KeyBind"
+            KeyBind.Parent = ContainerItemHolder
+            KeyBind.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+            KeyBind.Position = UDim2.new(0.156441718, 0, 0.816901445, 0)
+            KeyBind.Size = UDim2.new(0, 448, 0, 28)
+            KeyBind.AutoButtonColor = false
+            KeyBind.Font = Enum.Font.Gotham
+            KeyBind.Text = ""
+            KeyBind.TextColor3 = Color3.fromRGB(255, 255, 255)
+            KeyBind.TextSize = 14.000
+            KeyBind.ClipsDescendants = true
+
+            KeyBindCorner.CornerRadius = UDim.new(0, 6)
+            KeyBindCorner.Name = "KeyBindCorner"
+            KeyBindCorner.Parent = KeyBind
+
+            Title.Name = "Title"
+            Title.Parent = KeyBind
+            Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Title.BackgroundTransparency = 1.000
+            Title.Position = UDim2.new(0.0200892854, 0, 0, 0)
+            Title.Size = UDim2.new(0, 0, 0, 28)
+            Title.Font = Enum.Font.Gotham
+            Title.Text = text
+            Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Title.TextSize = 14.000
+            Title.TextXAlignment = Enum.TextXAlignment.Left
+
+            BoxBind.Name = "BoxBind"
+            BoxBind.Parent = KeyBind
+            BoxBind.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+            BoxBind.Position = UDim2.new(0.770089269, 0, 0.142857149, 0)
+            BoxBind.Size = UDim2.new(0, 97, 0, 19)
+
+            BoxCorner.CornerRadius = UDim.new(0, 6)
+            BoxCorner.Name = "BoxCorner"
+            BoxCorner.Parent = BoxBind
+
+            CurrentBind.Name = "CurrentBind"
+            CurrentBind.Parent = BoxBind
+            CurrentBind.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            CurrentBind.BackgroundTransparency = 1.000
+            CurrentBind.Position = UDim2.new(0.247, 0, -0.210526317, 0)
+            CurrentBind.Size = UDim2.new(0, 49, 0, 28)
+            CurrentBind.Font = Enum.Font.Gotham
+            CurrentBind.Text = Key
+            CurrentBind.TextColor3 = Color3.fromRGB(255, 255, 255)
+            CurrentBind.TextSize = 14.000
+
+            KeyBind.MouseEnter:Connect(
+                function()
+                    TweenService:Create(
+                        KeyBind,
+                        TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(45, 45, 45)}
+                    ):Play()
+                end
+            )
+
+            KeyBind.MouseLeave:Connect(
+                function()
+                    TweenService:Create(
+                        KeyBind,
+                        TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}
+                    ):Play()
+                end
+            )
+
+            KeyBind.MouseButton1Click:connect(
+                function(e)
+                    Ripple(KeyBind)
+                    CurrentBind.Text = "..."
+                    local a, b = game:GetService("UserInputService").InputBegan:wait()
+                    if a.KeyCode.Name ~= "Unknown" then
+                        CurrentBind.Text = a.KeyCode.Name
+                        Key = a.KeyCode.Name
+                    end
+                end
+            )
+
+            game:GetService("UserInputService").InputBegan:connect(
+                function(current, pressed)
+                    if not pressed then
+                        if current.KeyCode.Name == Key then
+                            pcall(callback)
+                        end
+                    end
+                end
+            )
+
+            ContainerItemHolder.CanvasSize = UDim2.new(0, 0, 0, ItemHolderList.AbsoluteContentSize.Y)
+        end
+        return TabItems
+    end
+    return WindowTabs
+end
+
+
+local Window = Lib:Window(".gg/dracohub", Color3.fromRGB(152, 194, 219))
+
+local ss = Window:Tab("MAIN")
+
+pcall(function()
+local baseplate = Instance.new("Part")
+
+baseplate.Name = "baseplate Draco Hub" 
+
+baseplate.Parent = game:GetService("Workspace")
+
+baseplate.CFrame = CFrame.new(23, 185, 10)
+
+baseplate.Anchored = true 
+
+baseplate.CanCollide = true 
+
+baseplate.Size = Vector3.new(10,.5,10)
+end) 
+
+
+
+ss:Toggle("Auto Dungeon [USE IN DUNGEON]",function(t)
+farm2 = t
+while farm2 do wait() 
+    pcall(function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(24, 189, 10)
+            local args = {
+                [1] = "DF_GravityGravity_V",
+                [2] = {
+                    ["MouseHit"] = CFrame.new(4.798807144165039, 15.997550964355469, -15.76809310913086, 0.896994411945343, -0.42874059081077576, 0.10762212425470352, -0, 0.24346590042114258, 0.9699094295501709, -0.44204187393188477, -0.870003342628479, 0.21838755905628204),
+                    ["Type"] = "Down"
+                }
+            }
+            
+            game:GetService("ReplicatedStorage"):WaitForChild("Chest"):WaitForChild("Remotes"):WaitForChild("Functions"):WaitForChild("SkillAction"):InvokeServer(unpack(args))
+            
+            local args = {
+                [1] = "DF_GravityGravity_V",
+                [2] = {
+                    ["MouseHit"] = CFrame.new(4.798807144165039, 15.997550964355469, -15.76809310913086, 0.896994411945343, -0.42874059081077576, 0.10762212425470352, -0, 0.24346590042114258, 0.9699094295501709, -0.44204187393188477, -0.870003342628479, 0.21838755905628204),
+                    ["Type"] = "Up"
+                }
+            }
+            
+            game:GetService("ReplicatedStorage"):WaitForChild("Chest"):WaitForChild("Remotes"):WaitForChild("Functions"):WaitForChild("SkillAction"):InvokeServer(unpack(args))
+            
+            
+            local args = {
+                [1] = "DF_GravityGravity_X",
+                [2] = {
+                    ["MouseHit"] = CFrame.new(4.798807144165039, 15.997550964355469, -15.76809310913086, 0.896994411945343, -0.42874059081077576, 0.10762212425470352, -0, 0.24346590042114258, 0.9699094295501709, -0.44204187393188477, -0.870003342628479, 0.21838755905628204),
+                    ["Type"] = "Down"
+                }
+            }
+            
+            game:GetService("ReplicatedStorage"):WaitForChild("Chest"):WaitForChild("Remotes"):WaitForChild("Functions"):WaitForChild("SkillAction"):InvokeServer(unpack(args))
+            
+            local args = {
+                [1] = "DF_GravityGravity_X",
+                [2] = {
+                    ["MouseHit"] = CFrame.new(4.798807144165039, 15.997550964355469, -15.76809310913086, 0.896994411945343, -0.42874059081077576, 0.10762212425470352, -0, 0.24346590042114258, 0.9699094295501709, -0.44204187393188477, -0.870003342628479, 0.21838755905628204),
+                    ["Type"] = "Up"
+                }
+            }
+            
+            game:GetService("ReplicatedStorage"):WaitForChild("Chest"):WaitForChild("Remotes"):WaitForChild("Functions"):WaitForChild("SkillAction"):InvokeServer(unpack(args))
+            
+            
+            local args = {
+                [1] = "DF_GravityGravity_B",
+                [2] = {
+                    ["MouseHit"] = CFrame.new(4.798807144165039, 15.997550964355469, -15.76809310913086, 0.896994411945343, -0.42874059081077576, 0.10762212425470352, -0, 0.24346590042114258, 0.9699094295501709, -0.44204187393188477, -0.870003342628479, 0.21838755905628204),
+                    ["Type"] = "Down"
+                }
+            }
+            
+            game:GetService("ReplicatedStorage"):WaitForChild("Chest"):WaitForChild("Remotes"):WaitForChild("Functions"):WaitForChild("SkillAction"):InvokeServer(unpack(args))
+            
+            local args = {
+                [1] = "DF_GravityGravity_B",
+                [2] = {
+                    ["MouseHit"] = CFrame.new(4.798807144165039, 15.997550964355469, -15.76809310913086, 0.896994411945343, -0.42874059081077576, 0.10762212425470352, -0, 0.24346590042114258, 0.9699094295501709, -0.44204187393188477, -0.870003342628479, 0.21838755905628204),
+                    ["Type"] = "Up"
+                }
+            }
+            
+            game:GetService("ReplicatedStorage"):WaitForChild("Chest"):WaitForChild("Remotes"):WaitForChild("Functions"):WaitForChild("SkillAction"):InvokeServer(unpack(args))
+            
+end) 
+end 
+end) 
