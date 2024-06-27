@@ -476,7 +476,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	WindowConfig.SaveConfig = WindowConfig.SaveConfig or false
 	WindowConfig.HidePremium = WindowConfig.HidePremium or false
 	if WindowConfig.IntroEnabled == nil then
-		WindowConfig.IntroEnabled = true 
+		WindowConfig.IntroEnabled = false
 	end
 	WindowConfig.IntroText = WindowConfig.IntroText or "Draco Hub"
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
