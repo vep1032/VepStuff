@@ -622,10 +622,6 @@ local L_11_ = [[
       }
     }
 ]]
-pcall(function()
-    L_11_ = game:HttpGet("https://raw.githubusercontent.com/ttwizz/Documents/master/icons.json", true)
-end)
-L_11_ = L_7_:JSONDecode(L_11_).icons
 
 
 local L_12_ = Instance.new("ScreenGui")
