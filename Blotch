@@ -622,6 +622,10 @@ local L_11_ = [[
       }
     }
 ]]
+pcall(function()
+    L_11_ = game:HttpGet("https://raw.githubusercontent.com/ttwizz/Documents/master/icons.json", true)
+end)
+L_11_ = L_7_:JSONDecode(L_11_).icons
 
 
 local L_12_ = Instance.new("ScreenGui")
@@ -780,6 +784,9 @@ local function L_24_func(L_74_arg1)
 end
 
 
+local function L_25_func(L_75_arg1)
+    return Color3.fromRGB(L_75_arg1.R, L_75_arg1.G, L_75_arg1.B)
+end
 
 
 local function L_26_func(L_76_arg1)
