@@ -645,25 +645,31 @@ end
 
 -- Rest of your code continues here...
 
-
 local L_12_ = Instance.new("ScreenGui")
 L_12_.Name = string.lower(string.reverse(string.sub(L_7_:GenerateGUID(false), 1, 8)))
 
--- Make the UI hidden by default
+-- Ensure the UI is hidden by default
 L_12_.Enabled = false
 
+-- Safeguard for environments where syn might not be available
 if getfenv().syn then
     getfenv().syn.protect_gui(L_12_)
     L_12_.Parent = L_8_
 else
     xpcall(function()
+        -- Attempt to parent the ScreenGui
         L_12_.Parent = getfenv().gethui and getfenv().gethui() or L_8_
     end, function()
+        -- Handle errors by falling back to PlayerGui
         L_12_.DisplayOrder = 9e8
         L_12_.ResetOnSpawn = false
         L_12_.Parent = L_5_:WaitForChild("PlayerGui", math.huge)
     end)
 end
+
+-- Force hide the UI to ensure it's not visible
+L_12_.Enabled = false
+print("UI Created and Hidden:", L_12_.Name, L_12_.Enabled)
 
 
 local L_13_ = L_12_.Parent
