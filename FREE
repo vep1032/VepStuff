@@ -140,9 +140,14 @@ local function Create(Name, Properties, Children)
 end
 
 local function CreateElement(ElementName, ElementFunction)
-	OrionLib.Elements[ElementName] = function(...)
-		return ElementFunction(...)
-	end
+    OrionLib.Elements[ElementName] = function(...)
+        local success, result = pcall(ElementFunction, ...)
+        if success then
+            return result
+        else
+            warn("Failed to create element: " .. ElementName .. " - " .. result)
+        end
+    end
 end
 
 local function MakeElement(ElementName, ...)
