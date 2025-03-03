@@ -1,4 +1,4 @@
---THIS SCRIPT IS PATCHED AND DOES NOT WORK ANYMORE WHATSOEVER
+-- SCRIPT PATCHEDD!!!!
 
 
 
@@ -30,15 +30,7 @@
 
 
 
-
-
-
-
-getgenv().MIGHTYOMEGA = true 
-
-if game.GameId == 1663370770 and game.PlaceId ~= 12355185014 and getgenv().MIGHTYOMEGA == true then
-
-    if not game:IsLoaded() then
+if not game:IsLoaded() then
         game.Loaded:Wait()
     end
 
@@ -7217,4 +7209,33 @@ if game.GameId == 1663370770 and game.PlaceId ~= 12355185014 and getgenv().MIGHT
 
     game.Players.PlayerAdded:Connect(function(v)
         if staffnotifier or copnotifier then
-            N
+            Notifier(v)
+        end
+
+        if OPSNotifier and OPsData ~= nil then
+            OPsData = game:GetService("HttpService"):JSONDecode(readfile("MOoppositions.json"))
+
+            if table.find(OPsData, tostring(v.UserId)) then
+                webhook(
+                    "Opposition Detected",
+                    "DisplayName: " .. v.DisplayName .. "\nUsername: " .. v.Name .. "\nUserId: " .. tostring(v.UserId)
+                )
+            end
+        end
+    end)
+
+    task.spawn(function()
+        while task.wait() do
+            vim:SendKeyEvent(true, Enum.KeyCode.L, false, game)
+            task.wait(.1)
+            vim:SendKeyEvent(false, Enum.KeyCode.L, false, game)
+            task.wait(600)
+        end
+    end)
+
+    
+
+
+    OrionLib:Init()
+
+end
