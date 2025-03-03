@@ -28,7 +28,8 @@
 
 
 
-
+getgenv().MSDASDA = true 
+if game.GameId == 1663370770 and game.PlaceId ~= 12355185014 and getgenv().MSDASDA == true then
 
 if not game:IsLoaded() then
         game.Loaded:Wait()
@@ -7237,5 +7238,5 @@ if not game:IsLoaded() then
 
 
     OrionLib:Init()
-
+end 
 
