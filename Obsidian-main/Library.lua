@@ -88,6 +88,40 @@ local Library = {
     DPIRegistry = {},
 }
 
+-- Accent Color Cycling
+
+local colors = {
+    Color3.fromRGB(12, 246, 0),
+    Color3.fromRGB(130, 0, 246),
+    Color3.fromRGB(0, 46, 246),
+    Color3.fromRGB(0, 246, 246),
+    Color3.fromRGB(226, 246, 0)
+}
+
+local index = 1
+
+task.spawn(function()
+    while not Library.Unloaded do
+        Library.Scheme.AccentColor = colors[index]
+
+        -- if your UI uses Registry to update colors dynamically
+        for _, obj in pairs(Library.Registry) do
+            if obj:IsA("Frame") or obj:IsA("TextLabel") or obj:IsA("TextButton") then
+                if obj.BackgroundColor3 == Library.Scheme.AccentColor then
+                    obj.BackgroundColor3 = colors[index]
+                end
+            end
+        end
+
+        index += 1
+        if index > #colors then
+            index = 1
+        end
+
+        task.wait(3) 
+    end
+end)
+
 if RunService:IsStudio() then 
     if UserInputService.TouchEnabled and not UserInputService.MouseEnabled then
         Library.IsMobile = true
