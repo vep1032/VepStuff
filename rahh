@@ -1667,6 +1667,8 @@ end
 function Library:CreateWindow(cfg)
 	cfg = cfg or {}
 	local Window = { Tabs = {}, ActiveTab = nil }
+	-- centre text: any of these keys works
+	cfg.GameName = cfg.GameName or cfg.Game or cfg.CenterText or cfg.Subtitle
 	local baseSize = cfg.Size or UDim2.fromOffset(580, 410)
 	local bigSize = UDim2.fromOffset(baseSize.X.Offset * 1.25, baseSize.Y.Offset * 1.2)
 	local currentSize = baseSize
@@ -1745,7 +1747,7 @@ function Library:CreateWindow(cfg)
 	local TitleLabel = Top:FindFirstChildWhichIsA("TextLabel")
 	local GameLabel = Text({
 		AnchorPoint = Vector2.new(0.5, 0.5), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.new(0.4, 0, 0, 16),
-		Text = cfg.GameName or "", TextSize = 12, TextColor3 = "SubFontColor", TextXAlignment = Enum.TextXAlignment.Center,
+		Text = cfg.GameName and tostring(cfg.GameName) or "", TextSize = 12, TextColor3 = "SubFontColor", TextXAlignment = Enum.TextXAlignment.Center,
 		TextTruncate = Enum.TextTruncate.AtEnd, Parent = Top,
 	})
 	if not cfg.GameName then
@@ -1815,7 +1817,6 @@ function Library:CreateWindow(cfg)
 	local Av = New("ImageLabel", { Size = UDim2.fromOffset(16, 16), BackgroundColor3 = "ComponentColor", LayoutOrder = 1, Parent = UserHolder })
 	Round(Av)
 	Stroke(Av, "AccentColor", 1)
-	Text({ Size = UDim2.fromOffset(0, 16), AutomaticSize = AUTO_X, Text = LocalPlayer.DisplayName, TextSize = 11, LayoutOrder = 2, Parent = UserHolder })
 	task.spawn(function()
 		local ok, img = pcall(Players.GetUserThumbnailAsync, Players, LocalPlayer.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size48x48)
 		if ok then Av.Image = img end
