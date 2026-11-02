@@ -67,7 +67,7 @@ local Library = {
 	RainbowSpeed = 0.05,
 	BlurEnabled = true,
 	BlurIntensity = 1,
-	DPIScale = 1.5,   -- default UI scale 150%
+	DPIScale = 1.2,   -- default UI scale 120%
 	CornerRadius = 10,
 
 	Scheme = {
