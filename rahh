@@ -67,7 +67,7 @@ local Library = {
 	RainbowSpeed = 0.05,
 	BlurEnabled = true,
 	BlurIntensity = 1,
-	DPIScale = 1,
+	DPIScale = 1.5,   -- default UI scale 150%
 	CornerRadius = 10,
 
 	Scheme = {
@@ -1693,12 +1693,6 @@ function Library:CreateWindow(cfg)
 		}),
 		Parent = Border,
 	})
-	local Glow = New("Frame", {
-		AnchorPoint = Vector2.new(0.5, 0.5), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.new(1, 8, 1, 8),
-		BackgroundTransparency = 1, ZIndex = 0, Parent = Main,
-	})
-	Corner(Glow, Library.CornerRadius + 4)
-	Stroke(Glow, "Flash", 3, 0.82)
 	Connect(RunService.RenderStepped, function(dt)
 		BorderGrad.Rotation = (BorderGrad.Rotation + dt * 55) % 360
 	end)
@@ -1748,6 +1742,7 @@ function Library:CreateWindow(cfg)
 		AutomaticSize = AUTO_X, Text = cfg.Title or "Draco Hub", FontFace = FONT_BOLD, TextSize = 14, Parent = Top,
 	})
 
+	local TitleLabel = Top:FindFirstChildWhichIsA("TextLabel")
 	local GameLabel = Text({
 		AnchorPoint = Vector2.new(0.5, 0.5), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.new(0.4, 0, 0, 16),
 		Text = cfg.GameName or "", TextSize = 12, TextColor3 = "SubFontColor", TextXAlignment = Enum.TextXAlignment.Center,
@@ -1756,7 +1751,7 @@ function Library:CreateWindow(cfg)
 	if not cfg.GameName then
 		task.spawn(function()
 			local ok, inf = pcall(MarketplaceService.GetProductInfo, MarketplaceService, game.PlaceId)
-			GameLabel.Text = (ok and inf and inf.Name) or "Roblox"
+			if not cfg.GameName then GameLabel.Text = (ok and inf and inf.Name) or "Roblox" end
 		end)
 	end
 
@@ -1827,6 +1822,14 @@ function Library:CreateWindow(cfg)
 	end)
 
 	function Window:SetFooter(t) FooterLbl.Text = t end
+	-- centre text: CreateWindow({ GameName = "..." }) or Window:SetGameName("...") anytime
+	function Window:SetGameName(t)
+		cfg.GameName = t
+		GameLabel.Text = tostring(t)
+	end
+	function Window:SetTitle(t)
+		if TitleLabel then TitleLabel.Text = tostring(t) end
+	end
 
 	---------------------------------------------------------------- lights actions
 	local minimized = false
