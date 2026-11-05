@@ -2282,8 +2282,6 @@ function ThemeManager:CreateThemeManager(groupbox)
 	groupbox:AddDivider()
 	groupbox:AddToggle("RainbowAccent", { Text = "Rainbow accent", Default = Library.Rainbow })
 	groupbox:AddSlider("RainbowSpeed", { Text = "Rainbow speed", Min = 1, Max = 10, Default = math.max(1, math.floor(Library.RainbowSpeed * 20 + 0.5)), Rounding = 0 })
-	groupbox:AddToggle("BackgroundBlur", { Text = "Background blur", Default = Library.BlurEnabled })
-	groupbox:AddSlider("BlurStrength", { Text = "Blur strength", Min = 0, Max = 1, Default = Library.BlurIntensity, Rounding = 2 })
 
 	Toggles.RainbowAccent:OnChanged(function(v)
 		Library.Rainbow = v
@@ -2293,8 +2291,6 @@ function ThemeManager:CreateThemeManager(groupbox)
 		end
 	end)
 	Options.RainbowSpeed:OnChanged(function(v) Library.RainbowSpeed = v / 20 end)
-	Toggles.BackgroundBlur:OnChanged(function(v) Library.BlurEnabled = v end)
-	Options.BlurStrength:OnChanged(function(v) Library.BlurIntensity = v end)
 
 	groupbox:AddDivider()
 	groupbox:AddDropdown("ThemeManager_ThemeList", { Text = "Preset", Values = self.ThemeOrder, Default = 1 })
