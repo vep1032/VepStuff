@@ -65,7 +65,7 @@ local Library = {
 
 	Rainbow = false,
 	RainbowSpeed = 0.05,
-	BlurEnabled = true,
+	BlurEnabled = false,
 	BlurIntensity = 1,
 	DPIScale = 1.2,   -- default UI scale 120%
 	CornerRadius = 10,
@@ -292,19 +292,55 @@ end
 --------------------------------------------------------------------------------
 
 local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
+
+-- protected container first: games that restyle everything in PlayerGui (forced TextScaled,
+-- font swaps, etc.) can't touch the menu there
+local GuiParent = PlayerGui
 do
-	local old = PlayerGui:FindFirstChild("DracoHub")
-	if old then old:Destroy() end
+	local ok, h = pcall(function() return gethui and gethui() end)
+	if ok and typeof(h) == "Instance" then
+		GuiParent = h
+	else
+		local ok2, cg = pcall(function()
+			local c = game:GetService("CoreGui")
+			local _ = c:GetChildren() -- throws when the executor can't touch CoreGui
+			return c
+		end)
+		if ok2 and cg then GuiParent = cg end
+	end
+	local prev = typeof(getgenv) == "function" and getgenv().__DracoHubGuiName or nil
+	for _, holder in ipairs({ PlayerGui, GuiParent }) do
+		for _, nm in ipairs({ "DracoHub", prev }) do
+			if nm then local old = holder:FindFirstChild(nm) if old then old:Destroy() end end
+		end
+	end
 end
 
+-- random, unsearchable gui name (a fixed "DracoHub" is trivial for a game to scan for)
+local GuiName = "DracoHub"
+pcall(function()
+	GuiName = "_" .. HttpService:GenerateGUID(false):gsub("-", "")
+	if typeof(getgenv) == "function" then getgenv().__DracoHubGuiName = GuiName end
+end)
+
 local ScreenGui = New("ScreenGui", {
-	Name = "DracoHub",
+	Name = GuiName,
 	ResetOnSpawn = false,
 	IgnoreGuiInset = true,
 	ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
 	DisplayOrder = 999,
-	Parent = PlayerGui,
+	Parent = GuiParent,
 })
+
+-- last line of defence if it still ends up somewhere a game script restyles it
+local function guardText(o)
+	if o:IsA("TextLabel") or o:IsA("TextButton") or o:IsA("TextBox") then
+		o:GetPropertyChangedSignal("TextScaled"):Connect(function()
+			if o.TextScaled then o.TextScaled = false end
+		end)
+	end
+end
+ScreenGui.DescendantAdded:Connect(guardText)
 Library.ScreenGui = ScreenGui
 
 -- tooltip
@@ -359,7 +395,15 @@ Library.KeybindContainer = KeybindFrame
 -- glass blur (from the original Draco UI) -> returns cleanup
 --------------------------------------------------------------------------------
 
+-- NOTE: the real glass blur is DISABLED by default. It spawned physical Material.Glass parts into
+-- workspace.CurrentCamera and a DepthOfFieldEffect into Lighting; games that scan those containers
+-- for foreign instances flag that as an exploit ("cheating detected"). The menu's own translucent
+-- background keeps the look. Set Library.AllowGlass = true before CreateWindow only on games you
+-- know don't scan workspace / Lighting.
 local function MakeGlass(Object)
+	if not Library.AllowGlass then
+		return function() end
+	end
 	local root = Instance.new("Folder")
 	root.Name = "DracoGlass"
 	root.Parent = Camera
